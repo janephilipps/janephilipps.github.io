@@ -1,0 +1,22 @@
+html {
+	font-family: Futura, sans-serif;
+	font-size: 1em;
+}
+
+
+a:link {
+	text-decoration: none;
+	color: black;
+}
+
+a:active {
+	color: black;
+}
+
+a:hover {
+	color: black;
+}
+
+a:visited {
+	color: black;
+}
