@@ -6,17 +6,17 @@ html {
 
 a:link {
 	text-decoration: none;
-	color: black;
+	color: blue;
 }
 
 a:active {
-	color: black;
+	color: blue;
 }
 
 a:hover {
-	color: black;
+	color: blue;
 }
 
 a:visited {
-	color: black;
+	color: blue;
 }
