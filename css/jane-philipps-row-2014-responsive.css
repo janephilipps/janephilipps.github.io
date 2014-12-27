@@ -19,7 +19,7 @@
 
 }
 
-@media screen and (min-width: 401px) and (max-width: ) {
+@media screen and (min-width: 401px) and (max-width: 746px) {
 	div {
 		width: 15px;
 		height: 15px;
@@ -30,11 +30,11 @@
 	}
 
 	.halfcircle {
-		width: 10px;
-		height: 5px;
-		border-radius: 5px 5px 0 0;
-		-moz-border-radius: 5px 5px 0 0;
-		-webkit-border-radius: 5px 5px 0 0;
+		width: 15px;
+		height: 7.5px;
+		border-radius: 7.5px 7.5px 0 0;
+		-moz-border-radius: 7.5px 7.5px 0 0;
+		-webkit-border-radius: 7.5px 7.5px 0 0;
 		background-color: blue;
 }
 
