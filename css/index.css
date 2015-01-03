@@ -3,6 +3,10 @@ html {
 	font-size: 1em;
 }
 
+body {
+	max-width: 800px;
+	margin: auto 30px auto 30px;
+}
 
 a {
 	text-decoration: none;
