@@ -4,19 +4,19 @@ html {
 }
 
 
-a:link {
+a {
 	text-decoration: none;
 	color: blue;
 }
 
-a:active {
-	color: blue;
-}
-
 a:hover {
+	color: red;
+}
+
+span {
 	color: blue;
 }
 
-a:visited {
-	color: blue;
+span:hover {
+	color: red;
 }

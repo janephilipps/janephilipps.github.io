@@ -1,32 +1,46 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<!--Google Analytics Tracking Code-->
+		<script>
+	  		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-	<!--Google Analytics Tracking Code-->
-	<script>
-  		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	  	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+		  	ga('create', 'UA-44446737-2', 'auto');
+		  	ga('send', 'pageview');
 
-	  	ga('create', 'UA-44446737-2', 'auto');
-	  	ga('send', 'pageview');
+		</script>
 
-	</script>
+		<!-- Google jQuery CDN -->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
 		<title>Jane Philipps | GitHub</title>
 		<link rel="stylesheet" href="css/index.css" />
 	</head>
 	<body>
-	<h1>Jane Philipps</h1>
-	<h2>About</h2>
-	<p>I am an artist who is learning to code. I started this site so I could showcase my code experiments and side projects. Feel free to visit my <a href="http://janephilipps.com">portfolio website</a> or <a href="https://github.com/janephilipps/janephilipps.github.io">check out my code</a>.
+		<h1>Jane Philipps</h1>
+		<h2>About</h2>
+		<p>I am an artist who is learning to code. I started this site so I could showcase my code experiments and side projects. Feel free to visit my <a href="http://janephilipps.com">portfolio website</a> or <a href="https://github.com/janephilipps/janephilipps.github.io">check out my code</a>.
+		<h2>Projects</h2>
+		<ul>
+			<li><a href="./css-color-keywords.html">CSS Color Keywords</a></li>
+			<li class="expander">
+				<span>Damien Hirst Spot Paintings</span>
+				<ul>
+					<li class="expandee"><a href="./jane-philipps-row-2014.html"><i>Row</i>, 2014</a></li>
+				</ul>
+			</li>
+		</ul>
+		</ul>
+		<script>
+			$(".expander").click(function() {
+				$(this).find(".expandee").toggle();
+			});
 
-	<h2>Projects</h2>
-	<ul>
-		<li><a href="./css-color-keywords.html">CSS Color Keywords</a></li>
-		<li><a href="./jane-philipps-row-2014.html"><i>Row</i>, 2014</a> (work in progress)</li>
-	</ul>
+			$(".expandee").hide();
+		</script>
 
 	</body>
 </html>
