@@ -1,4 +1,4 @@
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 446px) {
 	div {
 		width: 10px;
 		height: 10px;
@@ -14,12 +14,11 @@
 		border-radius: 5px 5px 0 0;
 		-moz-border-radius: 5px 5px 0 0;
 		-webkit-border-radius: 5px 5px 0 0;
-		background-color: blue;
 	}
 
 }
 
-@media screen and (min-width: 401px) and (max-width: 746px) {
+@media screen and (min-width: 447px) and (max-width: 746px) {
 	div {
 		width: 15px;
 		height: 15px;
@@ -35,7 +34,6 @@
 		border-radius: 7.5px 7.5px 0 0;
 		-moz-border-radius: 7.5px 7.5px 0 0;
 		-webkit-border-radius: 7.5px 7.5px 0 0;
-		background-color: blue;
 }
 
 
