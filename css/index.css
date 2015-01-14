@@ -10,17 +10,21 @@ body {
 
 a {
 	text-decoration: none;
-	color: blue;
+	color: cyan;
 }
 
 a:hover {
-	color: red;
+	color: yellow;
+}
+
+a:visited {
+	color: magenta;
 }
 
 span {
-	color: blue;
+	color: cyan;
 }
 
 span:hover {
-	color: red;
+	color: yellow;
 }
