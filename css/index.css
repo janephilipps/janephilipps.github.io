@@ -21,6 +21,10 @@ a:visited {
 	color: magenta;
 }
 
+a:visited:hover {
+	color: yellow;
+}
+
 span {
 	color: cyan;
 }
