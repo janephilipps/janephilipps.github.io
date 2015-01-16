@@ -32,3 +32,40 @@ span {
 span:hover {
 	color: yellow;
 }
+
+section p {
+	display: inline-block;
+}
+
+div {
+	width: 50px;
+	height: 50px;
+	opacity: .75;
+	border-radius: 100%;
+	text-align: center;
+	display: inline-block;
+}
+
+#cyan,
+#magenta,
+#yellow {
+	margin: 0 -20px 0 0;
+}
+
+#cyan {
+	background: cyan;
+	
+}
+
+#magenta {
+	background: magenta;
+}
+
+#yellow {
+	background: yellow;
+}
+
+#black {
+	background: black;
+	color: white;
+}
