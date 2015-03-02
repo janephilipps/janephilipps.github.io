@@ -1,7 +1,3 @@
-html {
-	font-family: Futura, sans-serif;
-	font-size: 1em;
-}
 
 body {
 	max-width: 800px;
@@ -69,3 +65,9 @@ div {
 	background: black;
 	color: white;
 }
+
+#mailinglist p {
+	font-weight: bold;
+}
+
+#mailinglist 

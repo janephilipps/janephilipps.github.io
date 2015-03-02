@@ -20,11 +20,87 @@ div {
 	-webkit-border-radius: 12.5px 12.5px 0 0;
 }
 
+/* KEEP */
 
+.goldenrod {
+	background-color: goldenrod;
+}
+
+.orangered {
+	background-color: orangered;
+}
+
+.saddlebrown {
+	background-color: saddlebrown;
+}
+
+.olive {
+	background-color: olive;
+}
+
+.cadetblue {
+	background-color: cadetblue;
+}
+
+.maroon {
+	background-color: maroon;
+}
+
+.coral {
+	background-color: coral;
+}
+
+.darkslateblue {
+	background-color: darkslateblue;
+}
+
+.lightcoral {
+	background-color: lightcoral;
+}
+
+.lightskyblue {
+	background-color: lightskyblue;
+}
+
+.palegoldenrod {
+	background-color: palegoldenrod;
+}
+
+.lightpink {
+	background-color: lightpink;
+}
+
+.lightsteelblue {
+	background-color: lightsteelblue;
+}
+
+.olivedrab {
+	background-color: olivedrab;
+}
+
+.darkblue {
+	background-color: darkblue;
+}
 
 .aliceblue {
 	background-color: aliceblue;
 }
+
+.mistyrose {
+	background-color: mistyrose;
+}
+
+.navy {
+	background-color: navy;
+}
+
+.khaki {
+	background-color: khaki;
+}
+
+/* REMOVE */
+
+
 
 .antiquewhite {
 	background-color: antiquewhite;
@@ -74,9 +150,7 @@ div {
 	background-color: burlywood;
 }
 
-.cadetblue {
-	background-color: cadetblue;
-}
+
 
 .chartreuse {
 	background-color: chartreuse;
@@ -86,9 +160,7 @@ div {
 	background-color: chocolate;
 }
 
-.coral {
-	background-color: coral;
-}
+
 
 .cornflowerblue {
 	background-color: cornflowerblue;
@@ -106,9 +178,7 @@ div {
 	background-color: cyan;
 }
 
-.darkblue {
-	background-color: darkblue;
-}
+
 
 .darkcyan {
 	background-color: darkcyan;
@@ -162,10 +232,7 @@ div {
 	background-color: darkseagreen;
 }
 
-.darkslateblue {
-	background-color: darkslateblue;
-	
-}
+
 
 .darkslategray {
 	background-color: darkslategray;
@@ -231,9 +298,7 @@ div {
 	background-color: gold;
 }
 
-.goldenrod {
-	background-color: goldenrod;
-}
+
 
 .gray {
 	background-color: gray;
@@ -271,9 +336,7 @@ div {
 	background-color: ivory;
 }
 
-.khaki {
-	background-color: khaki;
-}
+
 
 .lavender {
 	background-color: lavender;
@@ -295,9 +358,7 @@ div {
 	background-color: lightblue;
 }
 
-.lightcoral {
-	background-color: lightcoral;
-}
+
 
 .lightcyan {
 	background-color: lightcyan;
@@ -319,9 +380,7 @@ div {
 	background-color: lightgrey;
 }
 
-.lightpink {
-	background-color: lightpink;
-}
+
 
 .lightsalmon {
 	background-color: lightsalmon;
@@ -331,9 +390,7 @@ div {
 	background-color: lightseagreen;
 }
 
-.lightskyblue {
-	background-color: lightskyblue;
-}
+
 
 .lightslategray {
 	background-color: lightslategray;
@@ -343,9 +400,7 @@ div {
 	background-color: lightslategrey;
 }
 
-.lightsteelblue {
-	background-color: lightsteelblue;
-}
+
 
 .lightyellow {
 	background-color: lightyellow;
@@ -367,9 +422,7 @@ div {
 	background-color: magenta;
 }
 
-.maroon {
-	background-color: maroon;
-}
+
 
 .mediumaquamarine {
 	background-color: mediumaquamarine;
@@ -415,9 +468,7 @@ div {
 	background-color: mintcream;
 }
 
-.mistyrose {
-	background-color: mistyrose;
-}
+
 
 .moccasin {
 	background-color: moccasin;
@@ -427,37 +478,27 @@ div {
 	background-color: navajowhite;
 }
 
-.navy {
-	background-color: navy;
-}
+
 
 .oldlace {
 	background-color: oldlace;
 }
 
-.olive {
-	background-color: olive;
-}
 
-.olivedrab {
-	background-color: olivedrab;
-}
+
+
 
 .orange {
 	background-color: orange;
 }
 
-.orangered {
-	background-color: orangered;
-}
+
 
 .orchid {
 	background-color: orchid;
 }
 
-.palegoldenrod {
-	background-color: palegoldenrod;
-}
+
 
 .palegreen {
 	background-color: palegreen;
@@ -511,9 +552,7 @@ div {
 	background-color: royalblue;
 }
 
-.saddlebrown {
-	background-color: saddlebrown;
-}
+
 
 .salmon {
 	background-color: salmon;
