@@ -2,7 +2,7 @@
 <html>
 	<head>
 
-		<!--Google Analytics Tracking Code-->
+	<!--Google Analytics Tracking Code-->
 		<script>
 	  		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 	  		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -18,7 +18,7 @@
 
 		<!-- Google jQuery CDN -->
 		<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
-		<script src="js/tictactoe.js"></script>
+		<script src="js/tictactoe_oop.js"></script>
 
 		<link rel="stylesheet" href="css/typography.css" />
 		<link rel="stylesheet" href="css/tictactoe.css" />
@@ -26,19 +26,17 @@
 	<body>
 		<h1>Tic Tic Toe</h1>
 		<button id="reset">Reset</button>
-    	<h2 id="gameMessage">Let's Play! X goes first.</h2>
+    	<h2 id="gameMessage"></h2>
     	<div id='board'>
-      	<!-- the `<p>&nbsp;</p>` in each div is a non-breakable space.
-           It prevents the div from collapsing. -->
-	      <div class='box'><p>&nbsp;</p></div>
-	      <div class='box'><p>&nbsp;</p></div>
-	      <div class='box'><p>&nbsp;</p></div>
-	      <div class='box'><p>&nbsp;</p></div>
-	      <div class='box'><p>&nbsp;</p></div>
-	      <div class='box'><p>&nbsp;</p></div>
-	      <div class='box'><p>&nbsp;</p></div>
-	      <div class='box'><p>&nbsp;</p></div>
-	      <div class='box'><p>&nbsp;</p></div>
+	      <div class='box'><p></p></div>
+	      <div class='box'><p></p></div>
+	      <div class='box'><p></p></div>
+	      <div class='box'><p></p></div>
+	      <div class='box'><p></p></div>
+	      <div class='box'><p></p></div>
+	      <div class='box'><p></p></div>
+	      <div class='box'><p></p></div>
+	      <div class='box'><p></p></div>
 	    </div>
 	</body>
 </html>

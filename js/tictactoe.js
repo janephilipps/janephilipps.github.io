@@ -1,85 +1,111 @@
 $(function() {
-    // Sets variable boxes
 
-    var $boxes = $('.box');
+  // Make Player constructor
 
-    // Sets game message variable for displaying turns, winner etc.
+  function Player(name) {
+    this.name = name;
+  };
 
-    var $gameMessage = $('#gameMessage');
+  // Make Board constructor
 
-    // Sets variable clicks to keep track of X vs. O
+  function Board() {
+    this.$squares = $('.box');
+    this.firstPlayer = new Player('X');
+    this.secondPlayer = new Player('O');
+    this.$reset = $('#reset');
+    this.$gameMessage = $('#gameMessage');
+    this.$clicks = 0;
+  };
 
-    var clicks = 0;
+   // Make Board prototype for reset event
+   // On reset button click, instantiate a new board, then call reset on it
 
-    // Sets variables x & o
 
-    var x = "X";
-    var o = "O";
+  Board.prototype.reset = function() {
+    this.$squares.children(0).html('&nbsp;');
+    this.clicks = 0;
+    this.$gameMessage.html('Let\'s Play! ' + this.firstPlayer.name + ' goes first.');
+    console.log('It worked!');
+  };
 
-    // Checks if a player has played in a winning combination
+  // Make Board prototype to check winner
 
-    var checkWinner = function(player) {
-        
-        // Checks innerHTML of x index of box array
+  Board.prototype.checkWinner = function(player) {
 
-        var checkBox = function(x) {
-            return $boxes.eq(x).children(0).html();
-        }
+    var _this = this;
 
-        // Sets winning conditions
-        var winner = [[0,1,2],[3,4,5],[6,7,8],[0,3,6],[1,4,7],[2,5,8],[0,4,8],[6,4,2]];
-        for (var i = 0; i < winner.length; i++) {
-            // console.log(winner[i]);
-            if (checkBox(winner[i][0]) === player && checkBox(winner[i][1]) === player && checkBox(winner[i][2]) === player) {
-                console.log("winner: " + i);
-                return true;
-            } 
-        }   
-        return false;
+    // Checks innerHTML of x index of box array
+
+    var checkBox = function(x) {
+        return _this.$squares.eq(x).children(0).html();
     }
 
-    // Handles box click event
+    // Sets winning conditions
+    var winner = [[0,1,2],[3,4,5],[6,7,8],[0,3,6],[1,4,7],[2,5,8],[0,4,8],[6,4,2]];
+    for (var i = 0; i < winner.length; i++) {
+        // console.log(winner[i]);
+        if (checkBox(winner[i][0]) === player.name && checkBox(winner[i][1]) === player.name && checkBox(winner[i][2]) === player.name) {
+            console.log("winner: " + i);
+            return true;
+        } 
+    }   
+    return false;
+  }
 
-    $boxes.click(function(event) {
-        var $box = $(event.target);
-        if (checkWinner(x) || checkWinner(o)) {
-            $gameMessage.append("!");
-        } else if ($box.html() === x || $box.html() === o) {
-            $gameMessage.html('Pick another square!');
-        } else {
-            clicks += 1;
-            console.log(clicks);
-            if (clicks % 2 === 1) {
-                $box.html(x);
-                $box.css('color', 'cyan');
-                if (clicks === 9) {
-                    $gameMessage.html('It\'s a draw!');
-                } else {
-                    $gameMessage.html('O goes next.');
-                }
-            } else {
-                $box.html(o);
-                $box.css('color', 'yellow');
-                $gameMessage.html('X goes next.');
-            }
-            if (checkWinner(x)) {
-                $gameMessage.html('X wins!');
-            } else if (checkWinner(o)) {
-                $gameMessage.html('O wins!');
-            } else {
-                console.log('WTF');
-            }
-        }
+  // Make Board prototype to handle click event
+
+  Board.prototype.handleClick = function(event) {
+    var $square = $(event.target);
+      if (this.checkWinner(this.firstPlayer) || this.checkWinner(this.secondPlayer)) {
+          this.$gameMessage.append("!");
+      } else if ($square.html() === this.firstPlayer.name || $square.html() === this.secondPlayer.name) {
+          this.$gameMessage.html('Pick another square!');
+      } else {
+          this.clicks += 1;
+          console.log(this.clicks);
+          if (this.clicks % 2 === 1) {
+              $square.html(this.firstPlayer.name);
+              $square.css('color', 'cyan');
+              if (this.clicks === 9) {
+                  this.$gameMessage.html('It\'s a draw!');
+              } else {
+                  this.$gameMessage.html(this.secondPlayer.name + ' goes next.');
+              }
+          } else {
+              $square.html(this.secondPlayer.name);
+              $square.css('color', 'yellow');
+              this.$gameMessage.html(this.firstPlayer.name + ' goes next.');
+          }
+          if (this.checkWinner(this.firstPlayer)) {
+              this.$gameMessage.html(this.firstPlayer.name + ' wins!');
+          } else if (this.checkWinner(this.secondPlayer)) {
+              this.$gameMessage.html(this.secondPlayer.name + ' wins!');
+          } else {
+              console.log('No winner yet!');
+          }
+      }
+  };
+
+  // 
+
+  Board.prototype.init = function() {
+    var _this = this;
+
+    this.$reset.click(function(event) {
+      _this.reset();
     });
 
-    // Reset button - changes html for all boxes, changes gameMessage & sets clicks to 0
+    this.$squares.click(function(event) {
+      _this.handleClick(event);
+    });
 
-    var $resetButton = $('#reset');
+    this.reset();
 
-    $resetButton.click(function(event) {
-        $boxes.html('<p>&nbsp;</p>');
-        $gameMessage.html('Let\'s Play! X goes first.');
-        clicks = 0;
-    }); 
+  };
+
+  // Instantiate a new game
+
+  var newBoard = new Board();
+  newBoard.init();
 
 });
