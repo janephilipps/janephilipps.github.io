@@ -1,4 +1,4 @@
-$(function() {
+ $(function() {
 
   // Make Player constructor
 

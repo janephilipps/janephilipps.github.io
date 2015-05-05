@@ -3,6 +3,14 @@ html {
 	font-size: 1em;
 }
 
+button {
+	font-family: Futura, sans-serif;
+	font-size: 1em;
+	border-radius: 0px;
+	background: none;
+	border: none; 	
+}
+
 h1 {}
 
 h2 {}
