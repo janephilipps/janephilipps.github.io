@@ -8,21 +8,31 @@ a {
 
 a {
   text-decoration: none;
-  color: cyan;
+  color: black;
+  background-color: rgba(0,255,255,.25);
+  padding: .5%;
 }
 
 a:hover {
-  color: yellow;
+  color: white;
+  background-color: rgba(255,0,255,.25);
 }
 
 a:visited {
-  color: magenta;
+  color: black;
 }
 
 a:visited:hover {
-  color: yellow;
+  color: white;
+  background-color: rgba(255,0,255,.25);
 }
 
 .b {
   font-size: 1.125em;
+}
+
+
+h2 {
+  background-color: rgba(255,255,0,.25);
+  padding: 1%;
 }
