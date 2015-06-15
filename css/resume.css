@@ -6,6 +6,23 @@ a {
   text-decoration: none;
 }
 
+a {
+  text-decoration: none;
+  color: cyan;
+}
+
+a:hover {
+  color: yellow;
+}
+
+a:visited {
+  color: magenta;
+}
+
+a:visited:hover {
+  color: yellow;
+}
+
 .b {
   font-size: 1.125em;
 }
