@@ -1,68 +1,123 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Resume</title>
-  <link rel="stylesheet" href="./css/typography.css">
-  <link rel="stylesheet" href="./css/resume.css">
-</head>
-<body>
-  <div class="container">
-    <div>
-      <h1>JANE PHILIPPS</h1>
-    </div>
-    <div>
-      <h3><a href="mailto:jane.philipps@gmail.com">jane.philipps@gmail.com</a> | <a href="tel:4153786688">415.378.6688</a> | <a href="https://github.com/janephilipps">Github</a> | <a href="https://www.linkedin.com/in/janephilipps">LinkedIn</a></h3>
-    </div>
-    <div>
-      <h2>TECHNICAL SKILLS</h2>
-      <p><span class="b">Languages:</span> Javascript, Ruby, HTML, CSS, SCSS<br>
-      <span class="b">Frameworks/Libraries:</span> Node.js, Express, Rails, jQuery, Angular<br>
-      <span class="b">Database Tools:</span> SQL, PostgreSQL, Sequelize, Active Record<br><span class="b">Authentication/Authorization:</span> Bcrypt, Devise, Pundit<br><span class="b">Testing:</span> RSpec, Protractor<br>
-      <span class="b">Other:</span> Git/GitHub, Heroku</p>
-    </div>
-    <div>
-      <h2>WEB DEVELOPMENT EXPERIENCE</h2>
-      <span class="b"><span class="c"><a href="https://what-the-fog.com/" target="_blank">What the Fog?</a></span> 2015</span>
-      <p>What the Fog? is a simple web app that lets you check fog and cloud conditions by zip code. Built in Javascript using Node.js, Express, PostgreSQL, Sequelize, Bcrypt, EJS, Bootstrap, and Heroku.</p>
-      <span class="b"><a href="https://lotusnomads.org" target="_blank">LOTUS Nomads (alpha and beta versions)</a> 2015</span>
-      <p>LOTUS Nomads is a responsible travel company founded by Arati Sureddi. I worked with Arati Sureddi, Andrew Patsch, and Monet Wilson on this project. My responsibilities included: database modeling and migrations, Devise gem installation, adding to bucketlist functionality, and Git/GitHub management. Built in Ruby on Rails, using Devise, Active Record, and Heroku.</p>
-      <span class="b"><span class="c"><a href="https://spot-painting.com/" target="_blank">Spot Painting</a></span> 2015</span>
-      <p>Spot Painting is a simple web app, inspired by <a href="http://www.damienhirst.com/artworks/catalogue?category=1" target="_blank">Damien Hirst's spot paintings</a>, that lets you create spot paintings and share them with your friends. Built in JavaScript using the MEAN stack (MongoDB, Express, AngularJS, Node.js), Bootstrap, and Heroku.</p>
-    </div>
-    <div>
-      <h2>PREVIOUS EXPERIENCE</h2>
-      <span class="b"><a href="http://janephilipps.com">Jane Philipps</a> Artist 2013-present San Francisco, CA</span>
-      <ul>
-        <li>Emerging visual artist developing personal studio practice</li>
-        <li>Branding visual design: website, business cards, print collateral, email marketing</li>
-      </ul>
+  <head>
+    <!--Google Analytics Tracking Code-->
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-      <span class="b"><a href="http://honourmark.com" target="_blank">HonourMark</a> Product Development & Ecommerce Consultant 2013-14 San Francisco, CA</span>
-      <ul>
-        <li>Managed web design, development process from start to launch (3 month timeline)</li>
-        <li>Tested website across multiple browsers/devices pre-launch; worked with developer to triage and solve issues</li>
-      </ul>
-      <span class="b"><a href="http://levi.com" target="_blank">Levi Strauss & Co</a> Women’s Global Product Development Assistant 2012-13 San Francisco, CA
-      </span>
-      <ul>
-        <li>Managed overseas pre-production approvals for 400 styles per season on deadline driven calendar</li>
-        <li>Team trainer for company-wide implementation of PLM software; created training documents, trained new hires</li>
-      </ul>
-      <span class="b"><a href="http://betabrand.com" target="_blank">Betabrand</a> Lead Product Developer & Production Manager 2011-12 San Francisco, CA</span>
-      <ul>
-        <li>Oversaw and delivered over $2MM of inventory; responsible for on-time delivery of 2 products/week</li>
-        <li>Edited weekly email newsletter (15K subscribers); provided product specs and descriptions to copywriter</li>
-        <li>Mentored and oversaw daily workload of junior team members</li>
-      </ul>
+        ga('create', 'UA-44446737-2', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+
+    <title>Jane Philipps | GitHub</title>
+    <link rel="stylesheet" href="css/typography.css" />
+    <!-- Boostrap CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <div class="container">
+      <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+          <a id="home-nav" class="navbar-brand" href="./index.html">JANE PHILIPPS</a>
+          <ul class="nav navbar-nav navbar-right">
+            <li id="projects"><a href="./projects.html">PROJECTS<span class="sr-only">(current)</span></a></li>
+            <li id="resume"><a href="./resume.html">R&Eacute;SUM&Eacute;</a></li>
+            <!-- <li id="contact"><a href="./contact.html">CONTACT</a></li> -->
+
+          </ul>
+        </div>
+      </nav>
+      <div class="row">
+        <div class="col-md-8">
+          <div>
+            <h3>Jane Philipps</h3>
+          </div>
+          <div>
+            <h4><a href="mailto:jane.philipps@gmail.com">jane.philipps@gmail.com</a> | <a href="tel:4153786688">415.378.6688</a> | <a href="https://github.com/janephilipps">Github</a> | <a href="https://www.linkedin.com/in/janephilipps">LinkedIn</a></h4>
+          </div>
+          <div>
+            <h5>TECHNICAL SKILLS</h5>
+            <p><span class="b">Languages:</span> Javascript, Ruby, HTML, CSS, SCSS<br>
+            <span class="b">Frameworks/Libraries:</span> Node.js, Express, Rails, jQuery, Angular<br>
+            <span class="b">Database Tools:</span> SQL, PostgreSQL, Sequelize, Active Record<br><span class="b">Authentication/Authorization:</span> Bcrypt, Devise, Pundit<br><span class="b">Testing:</span> RSpec, Protractor<br>
+            <span class="b">Other:</span> Git/GitHub, Heroku</p>
+          </div>
+          <div>
+            <h5>WEB DEVELOPMENT EXPERIENCE</h5>
+            <span class="b"><span class="c"><a href="https://what-the-fog.com/" target="_blank">What the Fog?</a></span> 2015</span>
+            <p>What the Fog? is a simple web app that lets you check fog and cloud conditions by zip code. Built in Javascript using Node.js, Express, PostgreSQL, Sequelize, Bcrypt, EJS, Bootstrap, and Heroku.</p>
+            <span class="b"><a href="https://lotusnomads.org" target="_blank">LOTUS Nomads (alpha and beta versions)</a> 2015</span>
+            <p>LOTUS Nomads is a responsible travel company founded by Arati Sureddi. I worked with Arati Sureddi, Andrew Patsch, and Monet Wilson on this project. My responsibilities included: database modeling and migrations, Devise gem installation, adding to bucketlist functionality, and Git/GitHub management. Built in Ruby on Rails, using Devise, Active Record, and Heroku.</p>
+            <span class="b"><span class="c"><a href="https://spot-painting.com/" target="_blank">Spot Painting</a></span> 2015</span>
+            <p>Spot Painting is a simple web app, inspired by <a href="http://www.damienhirst.com/artworks/catalogue?category=1" target="_blank">Damien Hirst's spot paintings</a>, that lets you create spot paintings and share them with your friends. Built in JavaScript using the MEAN stack (MongoDB, Express, AngularJS, Node.js), Bootstrap, and Heroku.</p>
+          </div>
+          <div>
+            <h5>PREVIOUS EXPERIENCE</h5>
+            <span class="b"><a href="http://janephilipps.com">Jane Philipps</a> Artist 2013-present San Francisco, CA</span>
+            <ul>
+              <li>Emerging visual artist developing personal studio practice</li>
+              <li>Branding visual design: website, business cards, print collateral, email marketing</li>
+            </ul>
+
+            <span class="b"><a href="http://honourmark.com" target="_blank">HonourMark</a> Product Development & Ecommerce Consultant 2013-14 San Francisco, CA</span>
+            <ul>
+              <li>Managed web design, development process from start to launch (3 month timeline)</li>
+              <li>Tested website across multiple browsers/devices pre-launch; worked with developer to triage and solve issues</li>
+            </ul>
+            <span class="b"><a href="http://levi.com" target="_blank">Levi Strauss & Co</a> Women’s Global Product Development Assistant 2012-13 San Francisco, CA
+            </span>
+            <ul>
+              <li>Managed overseas pre-production approvals for 400 styles per season on deadline driven calendar</li>
+              <li>Team trainer for company-wide implementation of PLM software; created training documents, trained new hires</li>
+            </ul>
+            <span class="b"><a href="http://betabrand.com" target="_blank">Betabrand</a> Lead Product Developer & Production Manager 2011-12 San Francisco, CA</span>
+            <ul>
+              <li>Oversaw and delivered over $2MM of inventory; responsible for on-time delivery of 2 products/week</li>
+              <li>Edited weekly email newsletter (15K subscribers); provided product specs and descriptions to copywriter</li>
+              <li>Mentored and oversaw daily workload of junior team members</li>
+            </ul>
+          </div>
+          <div>
+            <h5>EDUCATION</h5>
+            <p><span class="b"><a href="http://generalassemb.ly" target="_blank">General Assembly</a> San Francisco, CA</span><br>Web Development Immersive 2015</p>
+            <p><span class="b"><a href="http://wustl.edu" target="_blank">Washington University in St. Louis</a>, <a href="http://samfoxschool.wustl.edu/" target="_blank">Sam Fox School of Design & Visual Arts</a></span><br>B.F.A, Printmaking/Drawing Major, Writing Minor 2009</p>
+            <span class="b">Washington University College of Art Semester Abroad Florence, Italy</span>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <h3>Say Hello.</h3>
+          <h4>Contact</h4>
+          <ul>
+            <li class="contactInfo"><a href="mailto:jane.philipps@gmail.com">Write</a></li>
+            <li class="contactInfo"><a href="https://twitter.com/intent/tweet?screen_name=janephilipps" target="_blank">Tweet@</a></li>
+            <li class="contactInfo"><a href="https://instagram.com/janephilipps/" target="_blank">Instagram</a></li>
+          </ul>
+          <br>
+          <br>
+        </div>
+      </div>
     </div>
-    <div>
-      <h2>EDUCATION</h2>
-      <p><span class="b"><a href="http://generalassemb.ly" target="_blank">General Assembly</a> San Francisco, CA</span><br>Web Development Immersive 2015</p>
-      <p><span class="b"><a href="http://wustl.edu" target="_blank">Washington University in St. Louis</a>, <a href="http://samfoxschool.wustl.edu/" target="_blank">Sam Fox School of Design & Visual Arts</a></span><br>B.F.A, Printmaking/Drawing Major, Writing Minor 2009</p>
-      <span class="b">Washington University College of Art Semester Abroad Florence, Italy</span>
-    </div>
-  </div>
-</body>
+
+    <!-- Google jQuery CDN -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    <script>
+      $(".expander").click(function() {
+        $(this).find(".expandee").toggle();
+      });
+
+      $(".expandee").hide();
+
+    </script>
+
+  </body>
 </html>

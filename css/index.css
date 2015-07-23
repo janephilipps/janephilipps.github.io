@@ -1,10 +1,12 @@
-
-body {
-	max-width: 800px;
-	margin: auto 30px auto 30px;
+html {
+	font-family: Futura, sans-serif;
 }
 
-a {
+body {
+	padding-top: 70px;
+}
+
+/*a {
 	text-decoration: none;
 	color: cyan;
 }
@@ -19,28 +21,28 @@ a:visited {
 
 a:visited:hover {
 	color: yellow;
-}
+}*/
 
-span {
+/*span {
 	color: cyan;
 }
 
 span:hover {
 	color: yellow;
-}
+}*/
 
 section p {
 	display: inline-block;
 }
 
-div {
+/*div {
 	width: 50px;
 	height: 50px;
 	opacity: .75;
 	border-radius: 100%;
 	text-align: center;
 	display: inline-block;
-}
+}*/
 
 #cyan,
 #magenta,
@@ -65,9 +67,3 @@ div {
 	background: black;
 	color: white;
 }
-
-#mailinglist p {
-	font-weight: bold;
-}
-
-#mailinglist
