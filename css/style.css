@@ -1,0 +1,111 @@
+body {
+	font-family: Futura, sans-serif;
+}
+
+body {
+	padding-top: 70px;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+.col-md-4 {
+	text-align: right;
+}
+
+#headshot {
+	border-radius: 10%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.navbar {
+	background-color: midnightblue;
+}
+
+.navbar-default .navbar-brand {
+	color: white;
+}
+
+.navbar-default .navbar-brand:hover {
+	color: cyan;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: white;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+	color: yellow;
+}
+
+/*a {
+	text-decoration: none;
+	color: cyan;
+}
+
+a:hover {
+	color: yellow;
+}
+
+a:visited {
+	color: magenta;
+}
+
+a:visited:hover {
+	color: yellow;
+}*/
+
+/*span {
+	color: cyan;
+}
+
+span:hover {
+	color: yellow;
+}*/
+
+section p {
+	display: inline-block;
+}
+
+/*div {
+	width: 50px;
+	height: 50px;
+	opacity: .75;
+	border-radius: 100%;
+	text-align: center;
+	display: inline-block;
+}*/
+
+/*#cyan,
+#magenta,
+#yellow {
+	margin: 0 -20px 0 0;
+}
+
+#cyan {
+	background: cyan;
+
+}
+
+#magenta {
+	background: magenta;
+}
+
+#yellow {
+	background: yellow;
+}
+
+#black {
+	background: black;
+	color: white;
+}*/
