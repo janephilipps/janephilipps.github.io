@@ -1,9 +1,23 @@
-html {
+body {
 	font-family: Futura, sans-serif;
 }
 
 body {
 	padding-top: 70px;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+.col-md-4 {
+	text-align: right;
+}
+
+#headshot {
+	border-radius: 10%;
 }
 
 /*a {
@@ -44,7 +58,7 @@ section p {
 	display: inline-block;
 }*/
 
-#cyan,
+/*#cyan,
 #magenta,
 #yellow {
 	margin: 0 -20px 0 0;
@@ -66,4 +80,4 @@ section p {
 #black {
 	background: black;
 	color: white;
-}
+}*/
