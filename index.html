@@ -24,36 +24,170 @@
 	</head>
 	<body>
 		<div class="container">
+
 			<nav class="navbar navbar-default navbar-fixed-top">
 	  		<div class="container">
 					<a id="home-nav" class="navbar-brand" href="./index.html">JANE PHILIPPS</a>
 		      <ul class="nav navbar-nav navbar-right">
-		        <li id="projects"><a href="./projects.html">PROJECTS<span class="sr-only">(current)</span></a></li>
-		        <li id="resume"><a href="./resume.html">R&Eacute;SUM&Eacute;</a></li>
-		        <!-- <li id="contact"><a href="./contact.html">CONTACT</a></li> -->
-
+		      	<li id="projects"><a href="#about">ABOUT<span class="sr-only">(current)</span></a></li>
+		        <li id="projects"><a href="#projects">PROJECTS</a></li>
+		        <li id="resume"><a href="#resume">R&Eacute;SUM&Eacute;</a></li>
+		        <li id="contact"><a href="#contact">CONTACT</a></li>
 		      </ul>
 	  		</div>
 			</nav>
-			<div class="row">
-			  <div class="col-md-8">
-			  	<h3>Jane Philipps</h3>
-					<h4>About</h4>
-					<p>I am web developer and artist. I started this site so I could showcase my code experiments and side projects. Feel free to <a href="https://github.com/janephilipps" target="_blank">check out my code</a> or visit my <a href="http://janephilipps.com" target="_blank">portfolio website</a>.</p>
-			  </div>
-			  <div class="col-md-4">
-			  	<h3>Say Hello.</h3>
-			  	<img src="./img/headshot.png" id="headshot" alt="Jane Philipps headshot">
-			  	<h4>Contact</h4>
-			 		<ul>
-						<li class="contactInfo"><a href="mailto:jane.philipps@gmail.com"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> Email</a></li>
-						<li class="contactInfo"><a href="linkedin.com/in/janephilipps" target="_blank"><i class="fa fa-linkedin"></i> LinkedIn</a></li>
-						<li class="contactInfo"><a href="https://github.com/janephilipps/" target="_blank"><i class="fa fa-github"></i> GitHub</a></li>
-						<li class="contactInfo"><a href="https://twitter.com/janephilipps" target="_blank"><i class="fa fa-twitter"></i> Twitter</a></li>
-						<li class="contactInfo"><a href="https://instagram.com/janephilipps/" target="_blank"><i class="fa fa-instagram"></i> Instagram</a></li>
-					</ul>
-			  </div>
-			</div>
+
+			<!-- START ABOUT SECTION -->
+			<div class="row section">
+			  <div class="col-md-12">
+			  	<div id="about">
+						<h2>About</h2>
+						<hr>
+						<p>I am web developer and artist. I started this site so I could showcase my code experiments and side projects. Feel free to <a href="https://github.com/janephilipps" target="_blank">check out my code</a> or visit my <a href="http://janephilipps.com" target="_blank">portfolio website</a>.</p>
+					</div> <!-- END ANCHOR -->
+				</div> <!-- END COLUMN -->
+			</div> <!-- END ROW -->
+			<!-- END ABOUT SECTION -->
+
+			<!-- START PROJECTS SECTION -->
+			<div class="row section">
+			  <div class="col-md-12">
+					<div id="projects">
+            <h2>Projects</h2>
+            <hr>
+            <ul>
+              <li>
+                <a href="./css-color-keywords.html" target="_blank">CSS Extended Color Keywords</a><br>While learning CSS, I discovered the <a href="http://www.w3.org/TR/css3-color/#svg-color" target="_blank">147 extended color keywords</a> and wanted to display them in a prettier way than HTML tables. I'm currently obsessed with circles, layering, and transparency, so I incorporated these aspects into my simple design.
+              </li>
+              <li class="expander">
+                <span>Damien Hirst Spot Paintings</span>
+                <br>I've always been a fan of Damien Hirst. Recreating his spot paintings for the web is my way of creating "master copies" and practicing my HTML and CSS skills. I am only using colors from the extended color keywords list above.
+                <ul>
+                  <li class="expandee"><a href="./row.html" target="_blank"><i>row.html</i>, 2015</a></li>
+                  <li class="expandee"><a href="./untitled_with_black_dot.html" target="_blank"><i>untitled_with_black_dot.html</i>, 2015 (work in progress)</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="./tictactoe.html" target="_blank">Tic Tac Toe</a><br>I built a simple Tic Tac Toe game using JavaScript and jQuery.
+              </li>
+              <li>
+                <a href="http://what-the-fog.com" target="_blank">What the Fog?</a><br>What the Fog? is a simple web app that lets you check fog and cloud conditions by zip code. Built in JavaScript using Node.js, Express, PostgreSQL, Sequelize, Bcrypt, EJS, Bootstrap, and Heroku.
+              </li>
+              <li>
+                <a href="http://www.lotusnomads.org/" target="_blank">LOTUS Nomads (alpha and beta versions)</a><br>LOTUS Nomads is a responsible travel company founded by <a href="https://www.linkedin.com/in/aratisureddi" target="_blank">Arati Sureddi</a>. Read more about their mission <a href="http://www.lotusnomads.org/about" target="_blank">here</a>. I worked with <a href="https://www.linkedin.com/in/aratisureddi" target="_blank">Arati Sureddi</a>, <a href="http://andrewpatzsch.com/" target="_blank">Andrew Patsch</a>, and <a href="https://www.linkedin.com/in/monetwilson" target="_blank">Monet Wilson</a> on this project. My responsibilities included: database modeling and migrations, Devise gem installation, adding to bucketlist functionality, and Git/GitHub management. Built in Ruby on Rails, using Devise, Active Record, and Heroku.
+              </li>
+              <li>
+                <a href="http://spot-painting.com" target="_blank">Spot Painting</a><br>Spot Painting is a simple web app, inspired by <a href="http://www.damienhirst.com/artworks/catalogue?category=1" target="_blank">Damien Hirst's spot paintings</a>, that lets you set parameters to randomly generate spot paintings, title them, and save them to a gallery. Built in JavaScript using the MEAN stack (MongoDB, Express, AngularJS, Node.js), Bootstrap, and Heroku.
+              </li>
+            </ul>
+          </div> <!-- END ANCHOR -->
+				</div> <!-- END COLUMN -->
+			</div> <!-- END ROW -->
+			<!-- END PROJECTS SECTION -->
+
+			<!-- START RESUME SECTION -->
+			<div class="row section">
+			  <div class="col-md-12">
+					<div id="resume">
+						<h2>R&eacute;sum&eacute;</h2>
+						<hr>
+            <h3>TECHNICAL SKILLS</h3>
+            <div class="row">
+            	<div class="col-md-4">
+            		<h4>Languages</h4>
+            		<p>Javascript, Ruby, HTML, CSS, SCSS</p>
+	            </div>
+	            <div class="col-md-4">
+	            	<h4>Frameworks/Libraries</h4>
+	            	<p>Node.js, Express, Rails, jQuery, Angular, Underscore</p>
+	            </div>
+	            <div class="col-md-4">
+	            	<h4>Database Tools</h4>
+	            	<p>SQL, PostgreSQL, Sequelize, Active Record</p>
+	            </div>
+            </div>
+            <div class="row">
+            	<div class="col-md-4">
+	            	<h4>Authentication/Authorization</h4>
+	            	<p>Bcrypt, Devise, Pundit</p>
+	            </div>
+	            <div class="col-md-4">
+	            	<h4>Testing</h4>
+	            	<p>RSpec, Protractor</p>
+	            </div>
+	            <div class="col-md-4">
+	            	<h4>Other</h4>
+	            	<p>Git/GitHub, Heroku</p>
+	            </div>
+            </div>
+	            <h3>WEB DEVELOPMENT EXPERIENCE</h3>
+	            <span class="b"><span class="c"><a href="https://what-the-fog.com/" target="_blank">What the Fog?</a></span> 2015</span>
+	            <p>What the Fog? is a simple web app that lets you check fog and cloud conditions by zip code. Built in Javascript using Node.js, Express, PostgreSQL, Sequelize, Bcrypt, EJS, Bootstrap, and Heroku.</p>
+	            <span class="b"><a href="https://lotusnomads.org" target="_blank">LOTUS Nomads (alpha and beta versions)</a> 2015</span>
+	            <p>LOTUS Nomads is a responsible travel company founded by Arati Sureddi. I worked with Arati Sureddi, Andrew Patsch, and Monet Wilson on this project. My responsibilities included: database modeling and migrations, Devise gem installation, adding to bucketlist functionality, and Git/GitHub management. Built in Ruby on Rails, using Devise, Active Record, and Heroku.</p>
+	            <span class="b"><span class="c"><a href="https://spot-painting.com/" target="_blank">Spot Painting</a></span> 2015</span>
+	            <p>Spot Painting is a simple web app, inspired by <a href="http://www.damienhirst.com/artworks/catalogue?category=1" target="_blank">Damien Hirst's spot paintings</a>, that lets you create spot paintings and share them with your friends. Built in JavaScript using the MEAN stack (MongoDB, Express, AngularJS, Node.js), Bootstrap, and Heroku.</p>
+	          <div>
+	            <h3>PREVIOUS EXPERIENCE</h3>
+	            <span class="b"><a href="http://janephilipps.com">Jane Philipps</a> Artist 2013-present San Francisco, CA</span>
+	            <ul>
+	              <li>Emerging visual artist developing personal studio practice</li>
+	              <li>Branding visual design: website, business cards, print collateral, email marketing</li>
+	            </ul>
+
+	            <span class="b"><a href="http://honourmark.com" target="_blank">HonourMark</a> Product Development & Ecommerce Consultant 2013-14 San Francisco, CA</span>
+	            <ul>
+	              <li>Managed web design, development process from start to launch (3 month timeline)</li>
+	              <li>Tested website across multiple browsers/devices pre-launch; worked with developer to triage and solve issues</li>
+	            </ul>
+	            <span class="b"><a href="http://levi.com" target="_blank">Levi Strauss & Co</a> Women’s Global Product Development Assistant 2012-13 San Francisco, CA
+	            </span>
+	            <ul>
+	              <li>Managed overseas pre-production approvals for 400 styles per season on deadline driven calendar</li>
+	              <li>Team trainer for company-wide implementation of PLM software; created training documents, trained new hires</li>
+	            </ul>
+	            <span class="b"><a href="http://betabrand.com" target="_blank">Betabrand</a> Lead Product Developer & Production Manager 2011-12 San Francisco, CA</span>
+	            <ul>
+	              <li>Oversaw and delivered over $2MM of inventory; responsible for on-time delivery of 2 products/week</li>
+	              <li>Edited weekly email newsletter (15K subscribers); provided product specs and descriptions to copywriter</li>
+	              <li>Mentored and oversaw daily workload of junior team members</li>
+	            </ul>
+	          </div>
+	          <div>
+	            <h3>EDUCATION</h3>
+	            <p><span class="b"><a href="http://generalassemb.ly" target="_blank">General Assembly</a> San Francisco, CA</span><br>Web Development Immersive 2015</p>
+	            <p><span class="b"><a href="http://wustl.edu" target="_blank">Washington University in St. Louis</a>, <a href="http://samfoxschool.wustl.edu/" target="_blank">Sam Fox School of Design & Visual Arts</a></span><br>B.F.A, Printmaking/Drawing Major, Writing Minor 2009</p>
+	            <span class="b">Washington University College of Art Semester Abroad Florence, Italy</span>
+	          </div>
+			  	</div> <!-- END ANCHOR -->
+				</div> <!-- END COLUMN -->
+			</div> <!-- END ROW -->
+			<!-- END RESUME SECTION -->
+
+			<!-- START CONTACT SECTION -->
+			<div class="row section">
+			  <div class="col-md-12">
+					<div id="contact">
+				  	<h2>Contact</h2>
+				  	<hr>
+				  	<img src="./img/headshot.png" id="headshot" alt="Jane Philipps headshot">
+				  	<div>
+				  		<h3>Say Hello</h3>
+					 		<ul>
+								<li class="contactInfo"><a href="mailto:jane.philipps@gmail.com"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> Email</a></li>
+								<li class="contactInfo"><a href="linkedin.com/in/janephilipps" target="_blank"><i class="fa fa-linkedin"></i> LinkedIn</a></li>
+								<li class="contactInfo"><a href="https://github.com/janephilipps/" target="_blank"><i class="fa fa-github"></i> GitHub</a></li>
+								<li class="contactInfo"><a href="https://twitter.com/janephilipps" target="_blank"><i class="fa fa-twitter"></i> Twitter</a></li>
+								<li class="contactInfo"><a href="https://instagram.com/janephilipps/" target="_blank"><i class="fa fa-instagram"></i> Instagram</a></li>
+							</ul>
+				  	</div>
+			  	</div> <!-- END ANCHOR -->
+				</div> <!-- END COLUMN -->
+			</div> <!-- END ROW -->
+			<!-- END CONTACT SECTION -->
+
+			  </div> <!-- END BOOSTRAP MAIN COLUMN -->
+			</div> <!-- END BOOTSTRAP ROW -->
 
 			<!-- <section>
 				<p>This site was designed with a</p>
@@ -65,7 +199,8 @@
 				</p>
 				<p>color scheme.</p>
 			</section> -->
-		</div>
+
+		</div> <!-- END BOOTSTRAP CONTAINER -->
 
 		<!-- Google jQuery CDN -->
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
