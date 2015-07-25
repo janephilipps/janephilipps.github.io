@@ -24,12 +24,20 @@ a:hover {
 	text-decoration: none;
 }
 
-.section {
-	margin: 5% 0 5% 0;
+.section #about,
+#projects,
+#resume,
+#contact {
+	margin-top: 5%;
+}
+
+.section #contact {
+	margin-bottom: 5%;
 }
 
 #contact div {
 	display: inline-block;
+	text-align: right;
 }
 
 /*p {
