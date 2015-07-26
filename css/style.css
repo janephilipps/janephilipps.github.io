@@ -3,7 +3,7 @@ body {
 }
 
 body {
-	padding-top: 70px;
+	padding-top: 50px;
 }
 
 ul {
@@ -24,11 +24,16 @@ a:hover {
 	text-decoration: none;
 }
 
-.section #about,
+.navbar {
+	height: 50px;
+}
+
+#about,
 #projects,
 #resume,
 #contact {
-	margin-top: 5%;
+	padding-top: 50px;
+	margin-top: -50px;
 }
 
 .section #contact {
@@ -36,8 +41,8 @@ a:hover {
 }
 
 #contact div {
-	display: inline-block;
-	text-align: right;
+	/*display: inline-block;*/
+	text-align: left;
 }
 
 /*p {
