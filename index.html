@@ -18,6 +18,8 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 		<!-- Font Awesome CDN -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+		<!-- Google Web Font - Railway -->
+		<link href='http://fonts.googleapis.com/css?family=Raleway:500' rel='stylesheet' type='text/css'>
 		<!-- Custom Styles -->
 		<link rel="stylesheet" href="css/style.css" />
 		<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -47,7 +49,7 @@
 						</li> -->
 						<li class="dropdown" id="resume-dropdown">
 					    <a href="#resume" style="display:inline-block;padding-right:0px;">R&Eacute;SUM&Eacute;</a>
-					    <a class="dropdown-toggle" data-toggle="dropdown" href="#resume-dropdown"  style="display:inline-block;padding-left:0px;">
+					    <a class="dropdown-toggle" data-toggle="dropdown" href="#resume-dropdown"  style="display:inline-block;padding-left:0px;margin-left:-4px;">
 					      <b class="caret"></b>
 					    </a>
 					    <ul class="dropdown-menu">
@@ -75,35 +77,51 @@
 			<!-- START PROJECTS SECTION -->
 			<div class="container section" id="projects">
 			  <div class="col-md-12">
-            <h2>Projects</h2>
-            <hr>
+          <h2>Projects</h2>
+          <hr>
+        </div>
+        <div class="col-md-6">
             <ul>
-              <li>
-                <a href="./css-color-keywords.html" target="_blank">CSS Extended Color Keywords</a><p>While learning CSS, I discovered the <a href="http://www.w3.org/TR/css3-color/#svg-color" target="_blank">147 extended color keywords</a> and wanted to display them in a prettier way than HTML tables. I'm currently obsessed with circles, layering, and transparency, so I incorporated these aspects into my simple design.</p>
+            	<li>
+                <h4><a href="http://spot-painting.com" target="_blank">Spot Painting</a></h4>
+                <p>Spot Painting is a simple web app, inspired by <a href="http://www.damienhirst.com/artworks/catalogue?category=1" target="_blank">Damien Hirst's spot paintings</a>, that lets you set parameters to randomly generate spot paintings, title them, and save them to a gallery.</p>
+								<h5>Technologies</h5>
+                <p>JavaScript, MongoDB, Express, AngularJS, Node.js, Bootstrap, Heroku</p>
               </li>
-              <li class="expander">
-                <span>Damien Hirst Spot Paintings</span>
+              <br>
+            	<li>
+                <h4><a href="http://www.lotusnomads.org/" target="_blank">LOTUS Nomads (alpha and beta versions)</a></h4>
+                <p>LOTUS Nomads is a responsible travel company founded by <a href="https://www.linkedin.com/in/aratisureddi" target="_blank">Arati Sureddi</a>. Read more about their mission <a href="http://www.lotusnomads.org/about" target="_blank">here</a>. I worked with <a href="https://www.linkedin.com/in/aratisureddi" target="_blank">Arati Sureddi</a>, <a href="http://andrewpatzsch.com/" target="_blank">Andrew Patsch</a>, and <a href="https://www.linkedin.com/in/monetwilson" target="_blank">Monet Wilson</a> on this project. My responsibilities included: database modeling and migrations, Devise gem installation, adding to bucketlist functionality, and Git/GitHub management.</p>
+                <h5>Technologies</h5>
+                <p>Ruby on Rails, PostgreSQL, Heroku</p>
+              </li>
+              <br>
+            	<li>
+                <h4><a href="http://what-the-fog.com" target="_blank">What the Fog?</a></h4>
+                <p>What the Fog? is a simple web app that lets you check fog and cloud conditions by zip code.</p>
+                <h5>Technologies</h5>
+                <p>JavaScript, PostgreSQL, Express, Node.js, Express, EJS, Bootstrap, Heroku</p>
+              </li>
+              <br>
+            	<li>
+                <h4><a href="./tictactoe.html" target="_blank">Tic Tac Toe</a></h4>
+                <p>I built a simple Tic Tac Toe game using JavaScript and jQuery.</p>
+              </li>
+              <br>
+            	<li class="expander">
+                <h4><span>Damien Hirst Spot Paintings</span></h4>
                 <p>I've always been a fan of Damien Hirst. Recreating his spot paintings for the web is my way of creating "master copies" and practicing my HTML and CSS skills. I am only using colors from the extended color keywords list above.</p>
                 <ul>
                   <li class="expandee"><a href="./row.html" target="_blank"><i>row.html</i>, 2015</a></li>
                   <li class="expandee"><a href="./untitled_with_black_dot.html" target="_blank"><i>untitled_with_black_dot.html</i>, 2015 (work in progress)</a></li>
                 </ul>
               </li>
+              <br>
               <li>
-                <a href="./tictactoe.html" target="_blank">Tic Tac Toe</a>
-                <p>I built a simple Tic Tac Toe game using JavaScript and jQuery.</p>
-              </li>
-              <li>
-                <a href="http://what-the-fog.com" target="_blank">What the Fog?</a>
-                <p>What the Fog? is a simple web app that lets you check fog and cloud conditions by zip code. Built in JavaScript using Node.js, Express, PostgreSQL, Sequelize, Bcrypt, EJS, Bootstrap, and Heroku.</p>
-              </li>
-              <li>
-                <a href="http://www.lotusnomads.org/" target="_blank">LOTUS Nomads (alpha and beta versions)</a>
-                <p>LOTUS Nomads is a responsible travel company founded by <a href="https://www.linkedin.com/in/aratisureddi" target="_blank">Arati Sureddi</a>. Read more about their mission <a href="http://www.lotusnomads.org/about" target="_blank">here</a>. I worked with <a href="https://www.linkedin.com/in/aratisureddi" target="_blank">Arati Sureddi</a>, <a href="http://andrewpatzsch.com/" target="_blank">Andrew Patsch</a>, and <a href="https://www.linkedin.com/in/monetwilson" target="_blank">Monet Wilson</a> on this project. My responsibilities included: database modeling and migrations, Devise gem installation, adding to bucketlist functionality, and Git/GitHub management. Built in Ruby on Rails, using Devise, Active Record, and Heroku.</p>
-              </li>
-              <li>
-                <a href="http://spot-painting.com" target="_blank">Spot Painting</a>
-                <p>Spot Painting is a simple web app, inspired by <a href="http://www.damienhirst.com/artworks/catalogue?category=1" target="_blank">Damien Hirst's spot paintings</a>, that lets you set parameters to randomly generate spot paintings, title them, and save them to a gallery. Built in JavaScript using the MEAN stack (MongoDB, Express, AngularJS, Node.js), Bootstrap, and Heroku.</p>
+              	<div class="project-container">
+	                <h4><a href="./css-color-keywords.html" target="_blank">CSS Extended Color Keywords</a></h4>
+	                <p>While learning CSS, I discovered the <a href="http://www.w3.org/TR/css3-color/#svg-color" target="_blank">147 extended color keywords</a> and wanted to display them in a prettier way than HTML tables. I'm currently obsessed with circles, layering, and transparency, so I incorporated these aspects into my simple design.</p>
+	              </div>
               </li>
             </ul>
 				</div> <!-- END COLUMN -->
@@ -130,6 +148,7 @@
 	            	<p>SQL, PostgreSQL, Sequelize, Active Record</p>
 	            </div>
             </div>
+
             <div class="row">
             	<div class="col-md-4">
 	            	<h4>Authentication/Authorization</h4>
@@ -147,40 +166,47 @@
             <br>
             <br>
 	            <h3 id="web-development">WEB DEVELOPMENT EXPERIENCE</h3>
-	            
-	            <a href="https://what-the-fog.com/" target="_blank">What the Fog?</a>
-	            <p>2015</p>
-	            <p>What the Fog? is a simple web app that lets you check fog and cloud conditions by zip code. Built in Javascript using Node.js, Express, PostgreSQL, Sequelize, Bcrypt, EJS, Bootstrap, and Heroku.</p>
-	            
-	            <a href="https://lotusnomads.org" target="_blank">LOTUS Nomads (alpha and beta versions)</a>
-	            <p>2015</p>
-	            <p>LOTUS Nomads is a responsible travel company founded by Arati Sureddi. I worked with Arati Sureddi, Andrew Patsch, and Monet Wilson on this project. My responsibilities included: database modeling and migrations, Devise gem installation, adding to bucketlist functionality, and Git/GitHub management. Built in Ruby on Rails, using Devise, Active Record, and Heroku.</p>
 
-	            <a href="https://spot-painting.com/" target="_blank">Spot Painting</a>
-	            <p>2015</p>
+	            <h4><a href="https://spot-painting.com/" target="_blank">Spot Painting</a> 2015</h4>
 	            <p>Spot Painting is a simple web app, inspired by <a href="http://www.damienhirst.com/artworks/catalogue?category=1" target="_blank">Damien Hirst's spot paintings</a>, that lets you create spot paintings and share them with your friends. Built in JavaScript using the MEAN stack (MongoDB, Express, AngularJS, Node.js), Bootstrap, and Heroku.</p>
+	            <br>
+
+							<h4><a href="https://lotusnomads.org" target="_blank">LOTUS Nomads (alpha and beta versions)</a> 2015</h4>
+	            <p>LOTUS Nomads is a responsible travel company founded by Arati Sureddi. I worked with Arati Sureddi, Andrew Patsch, and Monet Wilson on this project. My responsibilities included: database modeling and migrations, Devise gem installation, adding to bucketlist functionality, and Git/GitHub management. Built in Ruby on Rails, using Devise, Active Record, and Heroku.</p>
+	            <br>
+
+	            <h4><a href="https://what-the-fog.com/" target="_blank">What the Fog?</a> 2015</h4>
+	            <p>What the Fog? is a simple web app that lets you check fog and cloud conditions by zip code. Built in Javascript using Node.js, Express, PostgreSQL, Sequelize, Bcrypt, EJS, Bootstrap, and Heroku.</p>
+	            <br>
 	          <div>
 	          <br>
-	          <br>
 	            <h3 id="experience">PREVIOUS EXPERIENCE</h3>
-	            <span class="b"><a href="http://janephilipps.com">Jane Philipps</a> Artist 2013-present San Francisco, CA</span>
+	            <h4><a href="http://janephilipps.com">Jane Philipps</a> | Artist</h4>
+	            <h5>2013-present San Francisco, CA</h5>
 	            <ul>
 	              <li>Emerging visual artist developing personal studio practice</li>
 	              <li>Branding visual design: website, business cards, print collateral, email marketing</li>
 	            </ul>
+	            <br>
 
-	            <span class="b"><a href="http://honourmark.com" target="_blank">HonourMark</a> Product Development & Ecommerce Consultant 2013-14 San Francisco, CA</span>
+	            <h4><a href="http://honourmark.com" target="_blank">HonourMark</a> | Product Development & Ecommerce Consultant</h4>
+	            <h5>2013-14 San Francisco, CA</h5>
 	            <ul>
 	              <li>Managed web design, development process from start to launch (3 month timeline)</li>
 	              <li>Tested website across multiple browsers/devices pre-launch; worked with developer to triage and solve issues</li>
 	            </ul>
-	            <span class="b"><a href="http://levi.com" target="_blank">Levi Strauss & Co</a> Women’s Global Product Development Assistant 2012-13 San Francisco, CA
-	            </span>
+	            <br>
+
+	            <h4><a href="http://levi.com" target="_blank">Levi Strauss & Co</a> | Women&#39;s Global Product Development Assistant</h4>
+	            <h5>2012-13 San Francisco, CA</h5>
 	            <ul>
 	              <li>Managed overseas pre-production approvals for 400 styles per season on deadline driven calendar</li>
 	              <li>Team trainer for company-wide implementation of PLM software; created training documents, trained new hires</li>
 	            </ul>
-	            <span class="b"><a href="http://betabrand.com" target="_blank">Betabrand</a> Lead Product Developer & Production Manager 2011-12 San Francisco, CA</span>
+	            <br>
+
+	            <h4><a href="http://betabrand.com" target="_blank">Betabrand</a> | Lead Product Developer & Production Manager</h4>
+	            <h5>2011-12 San Francisco, CA</h5>
 	            <ul>
 	              <li>Oversaw and delivered over $2MM of inventory; responsible for on-time delivery of 2 products/week</li>
 	              <li>Edited weekly email newsletter (15K subscribers); provided product specs and descriptions to copywriter</li>
@@ -191,9 +217,13 @@
 	          <br>
 	          <br>
 	            <h3 id="education">EDUCATION</h3>
-	            <p><span class="b"><a href="http://generalassemb.ly" target="_blank">General Assembly</a> San Francisco, CA</span><br>Web Development Immersive 2015</p>
-	            <p><span class="b"><a href="http://wustl.edu" target="_blank">Washington University in St. Louis</a>, <a href="http://samfoxschool.wustl.edu/" target="_blank">Sam Fox School of Design & Visual Arts</a></span><br>B.F.A, Printmaking/Drawing Major, Writing Minor 2009</p>
-	            <span class="b">Washington University College of Art Semester Abroad Florence, Italy</span>
+	            <h4><a href="http://generalassemb.ly" target="_blank">General Assembly</a> San Francisco, CA</h4>
+	            <h5>Web Development Immersive 2015</h5>
+	            <br>
+	            <h4><a href="http://wustl.edu" target="_blank">Washington University in St. Louis</a>, <a href="http://samfoxschool.wustl.edu/" target="_blank">Sam Fox School of Design & Visual Arts</a></h4>
+	            <h5>B.F.A, Printmaking/Drawing Major, Writing Minor 2009</h5>
+	            <br>
+	            <h4>Washington University College of Art Semester Abroad Florence, Italy</h4>
 	          </div>
 				</div> <!-- END COLUMN -->
 			</div> <!-- END CONTAINER -->
@@ -223,14 +253,15 @@
 			<br>
 			<br>
 			<br>
-
-			<!-- <nav class="navbar navbar-default navbar-fixed-bottom">
-  			<div class="container">
-    			Designed & built by Jane Philipps 2015
-  			</div>
-			</nav> -->
-
 		</div> <!-- END BOOSTRAP MAIN CONTAINER -->
+
+		<nav class="navbar navbar-default navbar-static-bottom">
+			<br>
+			<br>
+			This site was built and designed by Jane Philipps with a <div class="cmyk" id="cyan"><p>C</p></div><div class="cmyk" id="magenta"><p>M</p></div><div class="cmyk" id="yellow"><p>Y</p></div><div class="cmyk" id="black"><p>K</p></div> color scheme.
+			<br>
+			<br>
+		</nav>
 
 		<!-- GOOGLE JQUERY CDN -->
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
@@ -239,11 +270,11 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
 		<script>
-			$(".expander").click(function() {
-				$(this).find(".expandee").toggle();
-			});
+		// 	$(".expander").click(function() {
+		// 		$(this).find(".expandee").toggle();
+		// 	});
 
-			$(".expandee").hide();
+		// 	$(".expandee").hide();
 
 		</script>
 

@@ -1,5 +1,5 @@
 body {
-	font-family: Futura, sans-serif;
+	font-family: 'Raleway', sans-serif;
 }
 
 body {
@@ -7,7 +7,7 @@ body {
 }
 
 ul {
-	list-style-type: none;
+	/*list-style-type: none;*/
 	padding: 0;
 	margin: 0;
 }
@@ -52,6 +52,61 @@ a:hover {
 	/*display: inline-block;*/
 	text-align: left;
 }
+
+.col-md-4 {
+	background-color: rgba(0,255,255,.25);
+}
+
+#contact ul,
+#projects ul {
+	list-style-type: none;
+}
+
+#projects .expander ul {
+	list-style-type: disc;
+}
+
+.cmyk {
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	display: inline-block;
+	text-align: center;
+	opacity: .75;
+}
+
+#cyan {
+	background-color: cyan;
+}
+
+#magenta {
+	background-color: magenta;
+}
+
+#yellow {
+	background-color: yellow;
+}
+
+#black {
+	color: white;
+	background-color: black;
+}
+
+#cyan,
+#magenta,
+#yellow {
+	margin: 0 -20px 0 0;
+}
+
+.navbar-static-bottom {
+	height: 100px;
+	text-align: center;
+	background-color: white;
+}
+
+/*.project-container {
+	border: black 1px solid;
+}*/
 
 /*p {
 	font-size: 1.125em;
