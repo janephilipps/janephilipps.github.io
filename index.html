@@ -32,7 +32,7 @@
 		      	<li><a href="#about">ABOUT<span class="sr-only">(current)</span></a></li>
 		        <li><a href="#projects">PROJECTS</a></li>
 		        <!-- <li><a href="#resume">R&Eacute;SUM&Eacute;</a></li> -->
-		        <li class="btn-group navbar-btn">
+		        <!-- <li class="btn-group navbar-btn">
 						  <button type="button" class="btn"><a href="#resume">R&Eacute;SUM&Eacute;</a></button>
 						  <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 						    <span class="caret"></span>
@@ -44,16 +44,19 @@
 						    <li><a href="#">Previous Experience</a></li>
 						    <li><a href="#">Education</a></li>
 						  </ul>
-						</li>
-		        <!-- <li class="dropdown">
-          		<a href="#resume" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">R&Eacute;SUM&Eacute; <span class="caret"></span></a>
-		          <ul class="dropdown-menu">
-		            <li><a href="#">Technical Skills</a></li>
-		            <li><a href="#">Web Development Experience</a></li>
-		            <li><a href="#">Previous Experience</a></li>
-		            <li><a href="#">Education</a></li>
-		          </ul>
-		        </li> -->
+						</li> -->
+						<li class="dropdown" id="resume-dropdown">
+					    <a href="#resume" style="display:inline-block;padding-right:0px;">R&Eacute;SUM&Eacute;</a>
+					    <a class="dropdown-toggle" data-toggle="dropdown" href="#resume-dropdown"  style="display:inline-block;padding-left:0px;">
+					      <b class="caret"></b>
+					    </a>
+					    <ul class="dropdown-menu">
+					      <li><a href="#technical-skills">Technical Skills</a></li>
+						    <li><a href="#web-development">Web Development Experience</a></li>
+						    <li><a href="#experience">Previous Experience</a></li>
+						    <li><a href="#education">Education</a></li>
+					    </ul>
+					  </li>
 		        <li><a href="#contact">CONTACT</a></li>
 		      </ul>
 	  		</div>
@@ -76,27 +79,31 @@
             <hr>
             <ul>
               <li>
-                <a href="./css-color-keywords.html" target="_blank">CSS Extended Color Keywords</a><br>While learning CSS, I discovered the <a href="http://www.w3.org/TR/css3-color/#svg-color" target="_blank">147 extended color keywords</a> and wanted to display them in a prettier way than HTML tables. I'm currently obsessed with circles, layering, and transparency, so I incorporated these aspects into my simple design.
+                <a href="./css-color-keywords.html" target="_blank">CSS Extended Color Keywords</a><p>While learning CSS, I discovered the <a href="http://www.w3.org/TR/css3-color/#svg-color" target="_blank">147 extended color keywords</a> and wanted to display them in a prettier way than HTML tables. I'm currently obsessed with circles, layering, and transparency, so I incorporated these aspects into my simple design.</p>
               </li>
               <li class="expander">
                 <span>Damien Hirst Spot Paintings</span>
-                <br>I've always been a fan of Damien Hirst. Recreating his spot paintings for the web is my way of creating "master copies" and practicing my HTML and CSS skills. I am only using colors from the extended color keywords list above.
+                <p>I've always been a fan of Damien Hirst. Recreating his spot paintings for the web is my way of creating "master copies" and practicing my HTML and CSS skills. I am only using colors from the extended color keywords list above.</p>
                 <ul>
                   <li class="expandee"><a href="./row.html" target="_blank"><i>row.html</i>, 2015</a></li>
                   <li class="expandee"><a href="./untitled_with_black_dot.html" target="_blank"><i>untitled_with_black_dot.html</i>, 2015 (work in progress)</a></li>
                 </ul>
               </li>
               <li>
-                <a href="./tictactoe.html" target="_blank">Tic Tac Toe</a><br>I built a simple Tic Tac Toe game using JavaScript and jQuery.
+                <a href="./tictactoe.html" target="_blank">Tic Tac Toe</a>
+                <p>I built a simple Tic Tac Toe game using JavaScript and jQuery.</p>
               </li>
               <li>
-                <a href="http://what-the-fog.com" target="_blank">What the Fog?</a><br>What the Fog? is a simple web app that lets you check fog and cloud conditions by zip code. Built in JavaScript using Node.js, Express, PostgreSQL, Sequelize, Bcrypt, EJS, Bootstrap, and Heroku.
+                <a href="http://what-the-fog.com" target="_blank">What the Fog?</a>
+                <p>What the Fog? is a simple web app that lets you check fog and cloud conditions by zip code. Built in JavaScript using Node.js, Express, PostgreSQL, Sequelize, Bcrypt, EJS, Bootstrap, and Heroku.</p>
               </li>
               <li>
-                <a href="http://www.lotusnomads.org/" target="_blank">LOTUS Nomads (alpha and beta versions)</a><br>LOTUS Nomads is a responsible travel company founded by <a href="https://www.linkedin.com/in/aratisureddi" target="_blank">Arati Sureddi</a>. Read more about their mission <a href="http://www.lotusnomads.org/about" target="_blank">here</a>. I worked with <a href="https://www.linkedin.com/in/aratisureddi" target="_blank">Arati Sureddi</a>, <a href="http://andrewpatzsch.com/" target="_blank">Andrew Patsch</a>, and <a href="https://www.linkedin.com/in/monetwilson" target="_blank">Monet Wilson</a> on this project. My responsibilities included: database modeling and migrations, Devise gem installation, adding to bucketlist functionality, and Git/GitHub management. Built in Ruby on Rails, using Devise, Active Record, and Heroku.
+                <a href="http://www.lotusnomads.org/" target="_blank">LOTUS Nomads (alpha and beta versions)</a>
+                <p>LOTUS Nomads is a responsible travel company founded by <a href="https://www.linkedin.com/in/aratisureddi" target="_blank">Arati Sureddi</a>. Read more about their mission <a href="http://www.lotusnomads.org/about" target="_blank">here</a>. I worked with <a href="https://www.linkedin.com/in/aratisureddi" target="_blank">Arati Sureddi</a>, <a href="http://andrewpatzsch.com/" target="_blank">Andrew Patsch</a>, and <a href="https://www.linkedin.com/in/monetwilson" target="_blank">Monet Wilson</a> on this project. My responsibilities included: database modeling and migrations, Devise gem installation, adding to bucketlist functionality, and Git/GitHub management. Built in Ruby on Rails, using Devise, Active Record, and Heroku.</p>
               </li>
               <li>
-                <a href="http://spot-painting.com" target="_blank">Spot Painting</a><br>Spot Painting is a simple web app, inspired by <a href="http://www.damienhirst.com/artworks/catalogue?category=1" target="_blank">Damien Hirst's spot paintings</a>, that lets you set parameters to randomly generate spot paintings, title them, and save them to a gallery. Built in JavaScript using the MEAN stack (MongoDB, Express, AngularJS, Node.js), Bootstrap, and Heroku.
+                <a href="http://spot-painting.com" target="_blank">Spot Painting</a>
+                <p>Spot Painting is a simple web app, inspired by <a href="http://www.damienhirst.com/artworks/catalogue?category=1" target="_blank">Damien Hirst's spot paintings</a>, that lets you set parameters to randomly generate spot paintings, title them, and save them to a gallery. Built in JavaScript using the MEAN stack (MongoDB, Express, AngularJS, Node.js), Bootstrap, and Heroku.</p>
               </li>
             </ul>
 				</div> <!-- END COLUMN -->
@@ -108,7 +115,7 @@
 			  <div class="col-md-12">
 						<h2>R&eacute;sum&eacute;</h2>
 						<hr>
-            <h3 id="technical-skills">TECHNICAL SKILLS</h3>
+            <h3 class="section" id="technical-skills">TECHNICAL SKILLS</h3>
             <div class="row">
             	<div class="col-md-4">
             		<h4>Languages</h4>
@@ -137,15 +144,25 @@
 	            	<p>Git/GitHub, Heroku</p>
 	            </div>
             </div>
-	            <h3>WEB DEVELOPMENT EXPERIENCE</h3>
-	            <span class="b"><span class="c"><a href="https://what-the-fog.com/" target="_blank">What the Fog?</a></span> 2015</span>
+            <br>
+            <br>
+	            <h3 id="web-development">WEB DEVELOPMENT EXPERIENCE</h3>
+	            
+	            <a href="https://what-the-fog.com/" target="_blank">What the Fog?</a>
+	            <p>2015</p>
 	            <p>What the Fog? is a simple web app that lets you check fog and cloud conditions by zip code. Built in Javascript using Node.js, Express, PostgreSQL, Sequelize, Bcrypt, EJS, Bootstrap, and Heroku.</p>
-	            <span class="b"><a href="https://lotusnomads.org" target="_blank">LOTUS Nomads (alpha and beta versions)</a> 2015</span>
+	            
+	            <a href="https://lotusnomads.org" target="_blank">LOTUS Nomads (alpha and beta versions)</a>
+	            <p>2015</p>
 	            <p>LOTUS Nomads is a responsible travel company founded by Arati Sureddi. I worked with Arati Sureddi, Andrew Patsch, and Monet Wilson on this project. My responsibilities included: database modeling and migrations, Devise gem installation, adding to bucketlist functionality, and Git/GitHub management. Built in Ruby on Rails, using Devise, Active Record, and Heroku.</p>
-	            <span class="b"><span class="c"><a href="https://spot-painting.com/" target="_blank">Spot Painting</a></span> 2015</span>
+
+	            <a href="https://spot-painting.com/" target="_blank">Spot Painting</a>
+	            <p>2015</p>
 	            <p>Spot Painting is a simple web app, inspired by <a href="http://www.damienhirst.com/artworks/catalogue?category=1" target="_blank">Damien Hirst's spot paintings</a>, that lets you create spot paintings and share them with your friends. Built in JavaScript using the MEAN stack (MongoDB, Express, AngularJS, Node.js), Bootstrap, and Heroku.</p>
 	          <div>
-	            <h3>PREVIOUS EXPERIENCE</h3>
+	          <br>
+	          <br>
+	            <h3 id="experience">PREVIOUS EXPERIENCE</h3>
 	            <span class="b"><a href="http://janephilipps.com">Jane Philipps</a> Artist 2013-present San Francisco, CA</span>
 	            <ul>
 	              <li>Emerging visual artist developing personal studio practice</li>
@@ -171,7 +188,9 @@
 	            </ul>
 	          </div>
 	          <div>
-	            <h3>EDUCATION</h3>
+	          <br>
+	          <br>
+	            <h3 id="education">EDUCATION</h3>
 	            <p><span class="b"><a href="http://generalassemb.ly" target="_blank">General Assembly</a> San Francisco, CA</span><br>Web Development Immersive 2015</p>
 	            <p><span class="b"><a href="http://wustl.edu" target="_blank">Washington University in St. Louis</a>, <a href="http://samfoxschool.wustl.edu/" target="_blank">Sam Fox School of Design & Visual Arts</a></span><br>B.F.A, Printmaking/Drawing Major, Writing Minor 2009</p>
 	            <span class="b">Washington University College of Art Semester Abroad Florence, Italy</span>

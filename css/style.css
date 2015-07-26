@@ -36,6 +36,14 @@ a:hover {
 	margin-top: -50px;
 }
 
+#technical-skills,
+#web-development,
+#experience,
+#education {
+	padding-top: 70px;
+	margin-top: -70px;
+}
+
 .section #contact {
 	margin-bottom: 5%;
 }
