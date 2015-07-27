@@ -37,12 +37,18 @@ p {
 }
 
 a {
+	/*text-decoration: none*/
 	color: #5C73E6;
 }
 
 a:hover {
 	text-decoration: none;
 	color: #FF4B3E;
+}
+
+a:visited {
+	text-decoration: none
+	color: #5C73E6;
 }
 
 .navbar {
@@ -89,10 +95,6 @@ a:hover {
 #contact div {
 	/*display: inline-block;*/
 	text-align: left;
-}
-
-.col-md-4 {
-	background-color: rgba(244,255,250,.25);
 }
 
 #contact ul,
