@@ -26,7 +26,15 @@ h4 a {
 	color: #FF4B3E;
 }*/
 
-
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	color: #364958;
+}
 
 a {
 	color: #5C73E6;
@@ -34,7 +42,7 @@ a {
 
 a:hover {
 	text-decoration: none;
-	color: #4759B3;
+	color: #FF4B3E;
 }
 
 .navbar {
@@ -96,109 +104,13 @@ a:hover {
 	list-style-type: disc;
 }
 
-.cmyk {
+.footer {
 	height: 50px;
-	width: 50px;
-	border-radius: 50%;
-	display: inline-block;
 	text-align: center;
-	opacity: .75;
+	background-color: #364958;
 }
 
-/*#cyan {
-	background-color: cyan;
-}
-
-#magenta {
-	background-color: magenta;
-}
-
-#yellow {
-	background-color: yellow;
-}
-
-#black {
+.footer p {
 	color: white;
-	background-color: black;
+	margin-top: 15px;
 }
-
-#cyan,
-#magenta,
-#yellow {
-	margin: 0 -20px 0 0;
-}*/
-
-.navbar-static-bottom {
-	height: 100	px;
-	text-align: center;
-	background-color: white;
-}
-
-#base03,
-#base02,
-#base01,
-#base00,
-#base0,
-#base1,
-#base2,
-#base3,
-#yellow,
-#orange,
-#red,
-#magenta,
-#violet,
-#blue,
-#cyan,
-#green {
-	display: inline-block;
-	height: 50px;
-	width: 50px;
-	color: white;
-}
-
-
- #base03{background-color: #002b36;}
- #base02{background-color: #073642;}
- #base01{background-color: #586e75;}
- #base00{background-color: #657b83;}
- #base0{background-color: #839496;}
- #base1{background-color: #93a1a1;}
- #base2{background-color: #eee8d5;}
- #base3{background-color: #fdf6e3;}
- #yellow{background-color: #b58900;}
- #orange{background-color: #cb4b16;}
- #red{background-color: #dc322f;}
- #magenta{background-color: #d33682;}
- #violet{background-color: #6c71c4;}
- #blue{background-color: #268bd2;}
- #cyan{background-color: #2aa198;}
- #green{background-color: #859900;}
-
-/*.project-container {
-	border: black 1px solid;
-}*/
-
-/*p {
-	font-size: 1.125em;
-}*/
-
-/*.navbar {
-	background-color: white;
-	border: 2px solid black;
-}
-
-.navbar-default .navbar-brand {
-	color: black;
-}
-
-.navbar-default .navbar-brand:hover {
-	color: cyan;
-}
-
-.navbar-default .navbar-nav>li>a {
-	color: black;
-}
-
-.navbar-default .navbar-nav>li>a:hover {
-	color: yellow;
-}*/
