@@ -9,7 +9,6 @@ body {
 }
 
 ul {
-	/*list-style-type: none;*/
 	padding: 0;
 	margin: 0;
 }
@@ -26,10 +25,6 @@ h4 a {
 	text-decoration: none;
 }
 
-/*.red {
-	color: #FF4B3E;
-}*/
-
 h1,
 h2,
 h3,
@@ -45,7 +40,7 @@ p {
 }
 
 a {
-	/*text-decoration: none*/
+	text-decoration: none;
 	color: #5C73E6;
 }
 
@@ -101,7 +96,6 @@ a:visited {
 }
 
 #contact div {
-	/*display: inline-block;*/
 	text-align: left;
 }
 
