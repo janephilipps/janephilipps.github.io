@@ -14,6 +14,10 @@ ul {
 	margin: 0;
 }
 
+ul > li {
+	margin-left: 15px;
+}
+
 #headshot {
 	border-radius: 10%;
 }
@@ -99,6 +103,10 @@ a:visited {
 
 #contact ul {
 	list-style-type: none;
+}
+
+#contact ul > li {
+	margin-left: 0;
 }
 
 #projects .expander ul {
