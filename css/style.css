@@ -1,12 +1,34 @@
 body {
 	font-family: 'Raleway', sans-serif;
-}
-
-body {
 	padding-top: 50px;
 	background-color: #FCFCFF;
 	color: #364958;
 }
+
+/* NAVBAR STYLES */
+
+/*.navbar {
+	height: 50px;
+	background-color: #364958;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: #FCFCFF;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+	color: #A7BED3;
+}
+
+#home-nav {
+	color: #FCFCFF;
+}
+
+#home-nav:hover {
+	color: #FF4B3E;*/
+}
+
+/* END NAVBAR STYLES */
 
 ul {
 	padding: 0;
@@ -52,27 +74,6 @@ a:hover {
 a:visited {
 	text-decoration: none
 	color: #5C73E6;
-}
-
-.navbar {
-	height: 50px;
-	background-color: #364958;
-}
-
-.navbar-default .navbar-nav>li>a {
-	color: #FCFCFF;
-}
-
-.navbar-default .navbar-nav>li>a:hover {
-	color: #A7BED3;
-}
-
-#home-nav {
-	color: #FCFCFF;
-}
-
-#home-nav:hover {
-	color: #FF4B3E;
 }
 
 #about,

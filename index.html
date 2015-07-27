@@ -26,8 +26,41 @@
 	</head>
 	<body>
 		<div class="container">
+      <!-- Fixed navbar -->
+      <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a id="home" class="navbar-brand nav-color" href="./index.html">JANE PHILIPPS</a>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#about">ABOUT</a></li>
+              <li><a href="#projects">PROJECTS</a></li>
+              <li class="dropdown" id="resume-dropdown">
+                <a href="#resume" style="display:inline-block;padding-right:0px;">R&Eacute;SUM&Eacute;</a>
+                <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="#resume-dropdown"  style="display:inline-block;padding-left:0px;margin-left:-4px;">
+                  <b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a href="#technical-skills">Technical Skills</a></li>
+                  <li><a href="#web-development">Web Development Experience</a></li>
+                  <li><a href="#experience">Previous Experience</a></li>
+                  <li><a href="#education">Education</a></li>
+                </ul>
+              </li>
+              <li><a href="#contact">CONTACT</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </nav>
 
-			<nav class="navbar navbar-default navbar-fixed-top">
+			<!-- <nav class="navbar navbar-default navbar-fixed-top">
 	  		<div class="container">
 					<a id="home-nav" class="navbar-brand" href="./index.html">JANE PHILIPPS</a>
 		      <ul class="nav navbar-nav navbar-right">
@@ -48,7 +81,7 @@
 		        <li><a href="#contact">CONTACT</a></li>
 		      </ul>
 	  		</div>
-			</nav>
+			</nav> -->
 
 			<!-- START ABOUT SECTION -->
 			<div class="container section" id="about">
