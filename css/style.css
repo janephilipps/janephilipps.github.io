@@ -1,12 +1,82 @@
 body {
 	font-family: 'Raleway', sans-serif;
-}
-
-body {
 	padding-top: 50px;
 	background-color: #FCFCFF;
 	color: #364958;
 }
+
+/* NAVBAR STYLES */
+
+.navbar {
+  background-color: #364958;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #FCFCFF;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+  color: #A7BED3;
+}
+
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:focus,
+.navbar-default .navbar-nav>.open>a:hover {
+  background-color: #FCFCFF;
+  color: #FF4B3E;
+}
+
+.dropdown-menu {
+  background-color: #364958;
+}
+
+.dropdown-menu>li>a {
+  background-color: #364958;
+  color: #FCFCFF;
+}
+
+.dropdown-menu>li>a:hover {
+  background-color: #FCFCFF;
+  color: #FF4B3E;
+}
+
+#home {
+  color: #FCFCFF;
+}
+
+#home:hover {
+  color: #FF4B3E;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: #FCFCFF;
+}
+
+.navbar-default .navbar-toggle:hover {
+  background-color: #FCFCFF;
+  border-color: #FF4B3E;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #FCFCFF;
+}
+
+.navbar-default .navbar-toggle:hover .icon-bar {
+  background-color: #FF4B3E;
+}
+
+@media (max-width: 767px) {
+
+  .navbar-default .navbar-nav .open .dropdown-menu>li>a {
+    color: #FCFCFF;
+  }
+
+  .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover {
+    color: #FF4B3E;
+  }
+}
+
+/* END NAVBAR STYLES */
 
 ul {
 	padding: 0;
@@ -52,27 +122,6 @@ a:hover {
 a:visited {
 	text-decoration: none
 	color: #5C73E6;
-}
-
-.navbar {
-	height: 50px;
-	background-color: #364958;
-}
-
-.navbar-default .navbar-nav>li>a {
-	color: #FCFCFF;
-}
-
-.navbar-default .navbar-nav>li>a:hover {
-	color: #A7BED3;
-}
-
-#home-nav {
-	color: #FCFCFF;
-}
-
-#home-nav:hover {
-	color: #FF4B3E;
 }
 
 #about,
