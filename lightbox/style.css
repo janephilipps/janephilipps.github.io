@@ -1,0 +1,267 @@
+/* MAIN STYLES */
+
+body {
+  font-family: Futura, sans-serif;
+  font-size: 2em;
+}
+
+body h2 {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+input {
+  font-family: Futura, sans-serif;
+  font-size: 32px;
+}
+
+input[type=submit] {
+    border-radius: 5px;
+    border: 0;
+    width: 120px;
+    height:48px;
+    font-family: Futura, sans-serif;
+}
+
+form {
+  margin-bottom: 30px;
+}
+
+#container {
+  text-align: center;
+}
+
+#instructions {
+  text-align: center;
+}
+
+div#instructions ol {
+  font-size: .75em;
+  display: inline-block;
+  text-align: left;
+  margin-top: 0;
+}
+
+div#instructions h3 {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.image {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  width: 320px;
+}
+
+div.image p {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+div.image p a {
+  text-decoration: none;
+  color: royalblue;
+}
+
+div.image p a:hover {
+  color: orangered;
+}
+
+div.image p a:visited {
+  color: turquoise;
+}
+
+p {
+  font-family: Helvetica, sans-serif;
+  font-size: 16px;
+  word-wrap: break-word;
+}
+
+/* LIGHTBOX STYLES */
+
+.overlay {
+  display: none;
+  top: 8px;
+  left: 8px;
+  width: 100%;
+  height: 100%;
+  z-index:1001;
+  -moz-opacity: 0.5;
+  opacity:.50;
+  filter: alpha(opacity=50);
+}
+
+.white_content {
+  display: none;
+  position: fixed;
+  top: 20%;
+  left: 34%;
+  width: 30%;
+  height: 60%;
+  padding: 16px;
+  border: 5px solid grey;
+  background-color: white;
+  z-index:1002;
+  overflow: auto;
+  text-align: center;
+}
+
+.closeIcon {
+  position: absolute;
+  text-align: center;
+  right: 0px;
+  top: 0px;
+  width: 40px;
+  height: 40px;
+  border: 2px solid grey;
+  border-radius: 100%;
+  background-color: white;
+}
+
+.left {
+  position: absolute;
+  text-align: center;
+  left: 0px;
+  top: 50%;
+  width: 40px;
+  height: 40px;
+  border: 2px solid grey;
+  border-radius: 100%;
+  background-color: white;
+}
+
+.right {
+  position: absolute;
+  text-align: center;
+  right: 0px;
+  top: 50%;
+  width: 40px;
+  height: 40px;
+  border: 2px solid grey;
+  border-radius: 100%;
+  background-color: white;
+}
+
+/* RESPONSIVE STYLES FOR LIGHTBOX */
+
+@media handheld, screen and (max-width: 1255px) {
+  .white_content {
+    width: 35%;
+    left: 31%;
+  }
+}
+
+@media handheld, screen and (max-width: 1076px) {
+  .white_content {
+    width: 40%;
+    left: 29%;
+  }
+}
+
+@media handheld, screen and (max-width: 938px) {
+  .white_content {
+    width: 45%;
+    left: 26.5%;
+  }
+}
+
+@media handheld, screen and (min-width: 768) and (max-width: 885px) {
+  body h2 {
+    font-size: 1em;
+  }
+
+  div#instructions h3 {
+    font-size: .825em;
+  }
+
+  div#instructions ol {
+    font-size: .75em;
+  }
+
+  form#search {
+    font-size: .825em;
+  }
+
+  input {
+    font-size: .825em;
+  }
+
+  input[type=submit] {
+    height:31px;
+  }
+
+  .white_content {
+    width: 55%;
+    left: 24%;
+  }
+}
+
+@media handheld, screen and (min-width: 401px) and (max-width: 767px) {
+  body h2 {
+    font-size: 1em;
+  }
+
+  div#instructions h3 {
+    font-size: .825em;
+  }
+
+  div#instructions ol {
+    font-size: .625em;
+    display: inline-block;
+    text-align: left;
+  }
+
+  form#search {
+    font-size: .75em;
+  }
+
+  input {
+    font-size: .75em;
+  }
+
+  input[type=submit] {
+    height:31px;
+  }
+
+  .white_content {
+    top: 10%;
+    left: 15%;
+    width: 70%;
+    height: 60%;
+  }
+}
+
+@media handheld, screen and (max-width: 400px) {
+  body h2 {
+    font-size: .825em;
+  }
+
+  div#instructions h3 {
+    font-size: .75em;
+  }
+
+  div#instructions ol {
+    font-size: .5em;
+  }
+
+  form#search {
+    font-size: .75em;
+  }
+
+  input {
+    font-size: .75em;
+  }
+
+  input[type=submit] {
+    height:31px;
+  }
+
+  .white_content {
+    top: 10%;
+    left: 5%;
+    width: 80%;
+    height: 60%;
+  }
+}

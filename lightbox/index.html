@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Instagram Lightbox App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="container" id="fade">
+    <h2>Instagram Lightbox App</h2>
+    <div id="instructions">
+        <h3>Instructions</h3>
+        <ol>
+          <li>Enter a hashtag in the form (i.e. baking, contemporaryart, fog, sf, waterfall)</li>
+          <li>Click search or press enter</li>
+          <li>When the results appear, click on any image to pop up a lightbox</li>
+          <li>Use the arrows on the lightbox to scroll through the results</li>
+        </ol>
+      </div>
+    <form id="search">
+      # <input id="hashtag" type="text" placeholder="hashtag" autofocus>
+      <input type="submit" value="search">
+    </form>
+    <div id="template"></div>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
