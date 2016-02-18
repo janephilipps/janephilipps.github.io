@@ -113,6 +113,11 @@ p {
 	font-size: 20px;
 }
 
+img {
+  width: 570px;
+  height: 309px;
+}
+
 a {
 	text-decoration: none;
 	color: #5C73E6;
