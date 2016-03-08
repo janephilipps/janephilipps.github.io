@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Tic Tac Toe</title>
+    </head>
+    <body ng-app="ticTacToeApp">
+        <div ng-controller="HomeController">
+            <div class="title">
+                Tic Tac Toe
+            </div>
+            <button class="add-board" ng-click="addBoard()">
+                Add board
+            </button>
+            <div ng-repeat="b in boardNumberToArray() track by $index" class="board-container">
+                <div app-board></div>
+            </div>
+        </div>
+    <script src="bundle.js"></script></body>
+</html>
