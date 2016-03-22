@@ -1,0 +1,63 @@
+#reset,
+#randomize {
+    border: 2px solid #f26822;
+    color: #f26822;
+    background-color: white;
+    font: 1em Futura;
+    cursor: pointer;
+}
+
+#reset:hover,
+#randomize:hover {
+    background-color: #f26822;
+    color: white;
+}
+
+.button-container {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.box-container {
+    display: block;
+    text-align: center;
+}
+
+.box {
+    border: 3px solid #f26822;
+    display: inline-block;
+    width: 500px;
+    height: 500px;
+}
+
+.draggable-box {
+    border: 3px solid white;
+    margin: 5px;
+    background-color: #f26822;
+    color: white;
+    font-family: Futura, sans-serif;
+    font-size: 5em;
+    float: left;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    line-height: 150px;
+    cursor: pointer;
+    top: -8px;
+    left: -8px;
+}
+
+.droppable-box {
+    float: left;
+    border: 3px solid white;
+    z-index: 0;
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+}
+
+.opposite {
+    color: #f26822;
+    background-color: white;
+    border-color: #f26822;
+}
