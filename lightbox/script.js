@@ -99,7 +99,6 @@ window.onload = function () {
       var hr = clone.lastChild;
       clone.removeChild(hr);
     }
-    
 
     // Add close icon to clone
     var closeIcon = document.createElement("div");
