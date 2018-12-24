@@ -5,8 +5,6 @@
       Jane Philipps
     </title>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-		<link href='http://fonts.googleapis.com/css?family=Raleway:500' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="css/style.css" />
 		<meta name="viewport" content="width=device-width, initial-scale=1">
     <script>
@@ -19,649 +17,122 @@
     </script>
 	</head>
 	<body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand nav-color" href="./index.html">
+            Jane Philipps
+          </a>
+        </div>
+      </div>
+    </nav>
 		<div class="container">
-      <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a id="home" class="navbar-brand nav-color" href="./index.html">
-              JANE PHILIPPS
+			<div class="row">
+				<div class="col-md-12">
+					<h2>
+            About
+          </h2>
+          <p>
+            I'm an <a href="https://janephilipps.com" target="_blank">artist</a>, <a href="https://www.fullstackinterviewing.com/" target="_blank">writer</a>, and software engineer.
+          </p>
+          <br>
+          <h2>
+            Projects
+          </h2>
+          <h3>
+            <a href="https://janephilipps.github.io/every-second-a-color/" target="_blank">
+              Every Second, A Color
             </a>
-          </div>
-          <div id="navbar" class="navbar-collapse collapse">
-            <ul class="nav navbar-nav navbar-right">
-              <li>
-                <a href="#about">
-                  ABOUT
-                </a>
-              </li>
-              <li>
-                <a href="#projects">
-                  PROJECTS
-                </a>
-              </li>
-              <li class="dropdown" id="resume-dropdown">
-                <a href="#resume" style="display:inline-block;padding-right:0px;">
-                  R&Eacute;SUM&Eacute;
-                </a>
-                <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="#resume-dropdown" style="display:inline-block;padding-left:0px;margin-left:-4px;">
-                  <b class="caret"></b>
-                </a>
-                <ul class="dropdown-menu">
-                  <li>
-                    <a href="#technical-skills">
-                      Technical Skills
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#web-development">
-                      Web Development Experience
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#experience">
-                      Previous Experience
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#education">
-                      Education
-                    </a>
-                  </li>
-                </ul>
-              </li>
-              <li>
-                <a href="#contact">
-                  CONTACT
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-			<div class="container section" id="about">
-				<div class="row">
-					<div class="col-md-12">
-						<h2>
-              About
-            </h2>
-						<hr>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-10">
-						<p>
-              I'm a software engineer and an artist. I started this site so I could showcase my code experiments and side projects.
-            </p>
-						<p>
-              Feel free to <a href="https://github.com/janephilipps" target="_blank">check out my code</a> or visit my <a href="http://janephilipps.com" target="_blank">artist portfolio website</a>.
-            </p>
-					</div>
+          </h3>
+          <hr>
+          <h3>
+            <a href="http://spot-painting.com" target="_blank">
+              Spot Painting
+            </a>
+          </h3>
+          <p>
+            Spot Painting is a simple web app, inspired by <a href="http://www.damienhirst.com/artworks/catalogue?category=1" target="_blank">Damien Hirst's spot paintings</a>, that lets you set parameters to randomly generate spot paintings, title them, save them to a gallery, and share them with your friends.
+          </p>
+          <hr>
+          <!-- <h3>
+            <a href="./drag-and-drop" target="_blank">
+              Drag & Drop
+            </a>
+          </h3>
+          <p>
+            I built a simple drag & drop UI using jQuery.
+          </p>
+          <hr> -->
+          <h3>
+            <a href="./tictactoe.html" target="_blank">
+              Tic Tac Toe
+            </a>
+          </h3>
+          <p>
+            I built a simple Tic Tac Toe game using JavaScript and jQuery.
+          </p>
+          <hr>
+          <h3>
+            Damien Hirst Spot Paintings
+          </h3>
+          <p>
+            I've always been a fan of Damien Hirst. Recreating his spot paintings for the web is my way of creating "master copies" and practicing my HTML and CSS skills. I am only using colors from the extended color keywords list above.
+          </p>
+          <ul>
+            <li class="expandee">
+              <a href="./row.html" target="_blank">
+                <i>row.html</i>, 2015
+              </a>
+            </li>
+            <li class="expandee">
+              <a href="./untitled_with_black_dot.html" target="_blank">
+                <i>untitled_with_black_dot.html</i>, 2015 (work in progress)
+              </a>
+            </li>
+          </ul>
+          <hr>
+          <h3>
+            <a href="./css-color-keywords.html" target="_blank">
+              CSS Extended Color Keywords
+            </a>
+          </h3>
+          <p>
+            While learning CSS, I discovered the <a href="http://www.w3.org/TR/css3-color/#svg-color" target="_blank">147 extended color keywords</a> and wanted to display them in a prettier way than HTML tables. I'm currently obsessed with circles, layering, and transparency, so I incorporated these aspects into my simple design.
+          </p>
+          <br>
+					<h2>
+            Contact
+          </h2>
+          <ul>
+            <li class="contactInfo">
+              <a href="mailto:jane.philipps@gmail.com">
+                Email
+              </a>
+            </li>
+            <li class="contactInfo">
+              <a href="https://linkedin.com/in/janephilipps" target="_blank">
+                LinkedIn
+              </a>
+            </li>
+            <li class="contactInfo">
+              <a href="https://github.com/janephilipps/" target="_blank">
+                GitHub
+              </a>
+            </li>
+            <li class="contactInfo">
+              <a href="https://twitter.com/janephilipps" target="_blank">
+                Twitter
+              </a>
+            </li>
+            <li class="contactInfo">
+              <a href="https://instagram.com/janephilipps/" target="_blank">
+                Instagram
+              </a>
+            </li>
+          </ul>
 				</div>
 			</div>
-			<div class="container section" id="projects">
-				<div class="row">
-					<div class="col-md-12">
-	          <h2>
-              Projects
-            </h2>
-	          <hr>
-            <h3>
-              Large Projects
-            </h3>
-        	</div>
-				</div>
-        <div class="row">
-          <div class="col-md-6">
-            <h3>
-              <a href="http://www.iangoldbergdesign.com" target="_blank">
-                Ian Goldberg Design
-              </a>
-            </h3>
-            <h4>
-              <a href="http://www.iangoldbergdesign.com" target="_blank">
-                http://iangoldbergdesign.com
-              </a>
-            </h4>
-            <br>
-            <p>
-              I collaborated with Ian on the redesign and development of his portfolio website. The site is fully responsive.
-            </p>
-            <br>
-            <h4>
-              Technologies
-            </h4>
-            <p>
-              HTML, CSS, Bootstrap, Lightbox.js
-            </p>
-          </div>
-          <div class="col-md-6">
-            <img class="project" src="./img/ian-goldberg-design.png" alt="Ian Goldberg Design">
-          </div>
-        </div>
-        <div class="row">
-        	<div class="col-md-6">
-            <h3>
-              <a href="http://spot-painting.com" target="_blank">
-                Spot Painting
-              </a>
-            </h3>
-            <h4>
-              <a href="http://spot-painting.com" target="_blank">
-                http://spot-painting.com
-              </a>
-            </h4>
-            <br>
-            <p>
-              Spot Painting is a simple web app, inspired by <a href="http://www.damienhirst.com/artworks/catalogue?category=1" target="_blank">Damien Hirst's spot paintings</a>, that lets you set parameters to randomly generate spot paintings, title them, save them to a gallery, and share them with your friends.
-            </p>
-            <br>
-						<h4>
-              Technologies
-            </h4>
-            <p>
-              JavaScript, MongoDB, Express, AngularJS, Node.js, Bootstrap, Heroku
-            </p>
-        	</div>
-        	<div class="col-md-6">
-        		<img class="project" src="./img/spot-painting.png" alt="Spot Painting">
-        	</div>
-        </div>
-        <br>
-        <div class="row">
-        	<div class="col-md-6">
-            <h3>
-              <a href="http://www.lotusnomads.org/" target="_blank">
-                LOTUS Nomads (alpha and beta versions)
-              </a>
-            </h3>
-            <h4>
-              <a href="http://www.lotusnomads.org/" target="_blank">
-                http://lotusnomads.org
-              </a>
-            </h4>
-            <br>
-            <p>
-              LOTUS Nomads is a responsible travel company founded by <a href="https://www.linkedin.com/in/aratisureddi" target="_blank">Arati Sureddi</a>. Read more about their mission <a href="http://www.lotusnomads.org/about" target="_blank">here</a>. I worked with <a href="https://www.linkedin.com/in/aratisureddi" target="_blank">Arati Sureddi</a>, <a href="http://andrewpatzsch.com/" target="_blank">Andrew Patsch</a>, and <a href="https://www.linkedin.com/in/monetwilson" target="_blank">Monet Wilson</a> on this project. My responsibilities included: database modeling and migrations, Devise gem installation, adding to bucketlist functionality, and Git/GitHub management.
-            </p>
-            <br>
-            <h4>
-              Technologies
-            </h4>
-            <p>
-              Ruby on Rails, PostgreSQL, Heroku
-            </p>
-        	</div>
-        	<div class="col-md-6">
-        		<img class="project" src="./img/lotusnomads.png" alt="LOTUS Nomads">
-        	</div>
-        </div>
-        <br>
-        <div class="row">
-        	<div class="col-md-6">
-            <h3>
-              <a href="http://what-the-fog.com" target="_blank">
-                What the Fog?
-              </a>
-            </h3>
-            <h4>
-              <a href="http://what-the-fog.com" target="_blank">
-                http://what-the-fog.com
-              </a>
-            </h4>
-            <br>
-            <p>
-              What the Fog? is a simple web app that lets you check fog and cloud conditions by zip code.
-            </p>
-            <br>
-            <h4>
-              Technologies
-            </h4>
-            <p>
-              JavaScript, PostgreSQL, Express, Node.js, Express, EJS, Bootstrap, Heroku
-            </p>
-        	</div>
-        	<div class="col-md-6">
-        		<img class="project" src="./img/what-the-fog.png" alt="What the Fog?">
-        	</div>
-        </div>
-        <div class="row">
-          <div class="col-md-10">
-            <h3>
-              Small Projects
-            </h3>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-10">
-            <h4>
-              <a href="./drag-and-drop" target="_blank">
-                Drag & Drop
-              </a>
-            </h4>
-            <p>
-              I built a simple drag & drop UI using jQuery.
-            </p>
-          </div>
-        </div>
-        <!-- TODO: Fix API call -->
-        <!-- <div class="row">
-          <div class="col-md-10">
-            <h4>
-              <a href="./lightbox" target="_blank">
-                Instagram Lightbox App
-              </a>
-            </h4>
-            <p>
-              I built an Instagram hastag search app using native JavaScript.
-            </p>
-          </div>
-        </div> -->
-				<div class="row">
-					<div class="col-md-10">
-            <h4>
-              <a href="./tictactoe.html" target="_blank">
-                Tic Tac Toe
-              </a>
-            </h4>
-            <p>
-              I built a simple Tic Tac Toe game using JavaScript and jQuery.
-            </p>
-          </div>
-        </div>
-	      <div class="row">
-					<div class="col-md-10">
-            <h3>
-              <span>Damien Hirst Spot Paintings</span>
-            </h3>
-            <p>
-              I've always been a fan of Damien Hirst. Recreating his spot paintings for the web is my way of creating "master copies" and practicing my HTML and CSS skills. I am only using colors from the extended color keywords list above.
-            </p>
-            <ul>
-              <li class="expandee">
-                <a href="./row.html" target="_blank">
-                  <i>row.html</i>, 2015
-                </a>
-              </li>
-              <li class="expandee">
-                <a href="./untitled_with_black_dot.html" target="_blank">
-                  <i>untitled_with_black_dot.html</i>, 2015 (work in progress)
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <br>
-	      <div class="row">
-					<div class="col-md-10">
-            <h3>
-              <a href="./css-color-keywords.html" target="_blank">
-                CSS Extended Color Keywords
-              </a>
-            </h3>
-            <p>
-              While learning CSS, I discovered the <a href="http://www.w3.org/TR/css3-color/#svg-color" target="_blank">147 extended color keywords</a> and wanted to display them in a prettier way than HTML tables. I'm currently obsessed with circles, layering, and transparency, so I incorporated these aspects into my simple design.
-            </p>
-					</div>
-        </div>
-			</div>
-			<br>
-			<div class="container section" id="resume">
-				<div class="row">
-					<div class="col-md-12">
-						<h2>
-              R&eacute;sum&eacute;
-            </h2>
-						<hr>
-					</div>
-				</div>
-			  <div class="row">
-			  	<div class="col-md-12">
-			  		<h3 class="section" id="technical-skills">
-              TECHNICAL SKILLS
-            </h3>
-			  	</div>
-				</div>
-        <div class="row">
-        	<div class="col-md-4">
-        		<h4>
-              Languages
-            </h4>
-        		<p>
-              Javascript, CSS, HTML, Python, Ruby, Markdown
-            </p>
-          </div>
-          <div class="col-md-4">
-          	<h4>
-              Client-side:
-            </h4>
-          	<p>
-              React, Backbone, SASS/LESS, jQuery, Underscore, Handlebars, d3.js, Angular, Bootstrp, HTML5 Canvas, p5.js
-            </p>
-          </div>
-          <div class="col-md-4">
-          	<h4>
-              Server-side:
-            </h4>
-          	<p>
-              Node.js, Express, Django, Rails, Webpack
-            </p>
-          </div>
-				</div>
-        <div class="row">
-        	<div class="col-md-4">
-          	<h4>
-              Databases:
-            </h4>
-          	<p>
-              MySQL, PostgreSQL, MongoDB
-            </p>
-          </div>
-          <div class="col-md-4">
-          	<h4>
-              Testing
-            </h4>
-          	<p>
-              Jasmine, Enzyme, Mocha, Chai, RSpec, Protractor
-            </p>
-          </div>
-          <div class="col-md-4">
-          	<h4>
-              Other
-            </h4>
-          	<p>
-              Git, GitHub, Heroku, Docker, Jenkins, JIRA, Slack
-            </p>
-          </div>
-				</div>
-        <br>
-        <br>
-        <div class="row">
-			  	<div class="col-md-12">
-			  		<h3 id="web-development">
-              WEB DEVELOPMENT EXPERIENCE
-            </h3>
-			  	</div>
-				</div>
-				<div class="row">
-					<div class="col-md-10">
-            <h4>
-              <a href="https://www.pinterest.com/" target="_blank">Pinterest</a> | Software Engineer
-            </h4>
-            <h5>
-              October 2018 - present | San Francisco, CA
-            </h5>
-            <br>
-            <h4>
-              <a href="https://www.pinterest.com/" target="_blank">Pinterest</a> | Software Engineer, Apprentice
-            </h4>
-            <h5>
-              June 2018 - September 2018 | San Francisco, CA
-            </h5>
-            <br>
-      	    <h4>
-              <a href="https://www.theinformation.com/" target="_blank">The Information</a> | Full-Stack Engineer
-            </h4>
-            <h5>
-              January 2017 - May 2018 | San Francisco, CA
-            </h5>
-            <ul>
-              <li>
-                Helped deliver 10+ major cross-functional projects, leading several, including growth drivers bringing in 350+ leads/month
-              </li>
-              <li>
-                Improved application performance and efficiency, fixed business critical bugs, deprecated unused code
-              </li>
-              <li>
-                Implemented process and improved performance and efficiency of engineering team
-              </li>
-              <li>
-                Interviewed candidates and onboarded new team members
-              </li>
-            </ul>
-            <br>
-            <h4>
-              <a href="https://www.eventbrite.com/" target="_blank">Eventbrite</a> | Software Engineer
-            </h4>
-            <h5>
-              May 2016 - December 2016 | San Francisco, CA
-            </h5>
-            <ul>
-              <li>
-                Built reusable UI components for new, React-based design system
-              </li>
-              <li>
-                Fixed critical front-end bugs, reducing related organizer contacts by 50% month over month
-              </li>
-              <li>
-                Performed code reviews, refactored legacy code, deprecated unused code
-              </li>
-              <li>
-                Worked with cross-functional partners to shut down unsustainable sales referral program across platform
-              </li>
-              <li>
-                Partnered with customer service team to pilot and test new walkthrough tool for payments flow
-              </li>
-            </ul>
-            <br>
-            <h4>
-              <a href="https://www.whil.com/" target="_blank">Whil</a> | Front-end Engineer
-            </h4>
-            <h5>
-              October 2015 - March 2016 | San Francisco, CA
-            </h5>
-            <ul>
-              <li>
-                Built marketing site for Search Inside Yourself program launch
-              </li>
-              <li>
-                Worked with product & customer success team to build internal tool
-              </li>
-              <li>
-                Worked with marketing & design teams to rebuild marketing site
-              </li>
-              <li>
-                Implemented new features as needed
-              </li>
-              <li>
-                Codebase cleanup, maintenance, and refactoring
-              </li>
-            </ul>
-            <br>
-						<h4>
-              <a href="http://generalassemb.ly" target="_blank">General Assembly</a> | Developer in Residence
-            </h4>
-						<h5>
-              June 2015 - September 2015 | San Francisco, CA
-            </h5>
-						<p>
-              Helped Web Development Immersive students learn CS fundamentals during a 12-week cohort.
-            </p>
-						<br>
-						<h4>
-              <a href="https://spot-painting.com/" target="_blank">Spot Painting</a> 2015
-            </h4>
-	          <p>
-              Spot Painting is a simple web app, inspired by <a href="http://www.damienhirst.com/artworks/catalogue?category=1" target="_blank">Damien Hirst's spot paintings</a>, that lets you create spot paintings and share them with your friends. Built in JavaScript using the MEAN stack (MongoDB, Express, AngularJS, Node.js), Bootstrap, and Heroku.
-            </p>
-	          <br>
-						<h4>
-              <a href="https://lotusnomads.org" target="_blank">LOTUS Nomads (alpha and beta versions)</a> 2015
-            </h4>
-	          <p>
-              LOTUS Nomads is a responsible travel company founded by Arati Sureddi. I worked with Arati Sureddi, Andrew Patsch, and Monet Wilson on this project. My responsibilities included: database modeling and migrations, Devise gem installation, adding to bucketlist functionality, and Git/GitHub management. Built in Ruby on Rails, using Devise, Active Record, and Heroku.
-            </p>
-	          <br>
-	          <h4>
-              <a href="https://what-the-fog.com/" target="_blank">What the Fog?</a> 2015
-            </h4>
-	          <p>
-              What the Fog? is a simple web app that lets you check fog and cloud conditions by zip code. Built in Javascript using Node.js, Express, PostgreSQL, Sequelize, Bcrypt, EJS, Bootstrap, and Heroku.
-            </p>
-					</div>
-				</div>
-	      <br>
-	      <br>
-	      <div class="row">
-			  	<div class="col-md-12">
-			  		<h3 id="experience">
-              PREVIOUS EXPERIENCE
-            </h3>
-			  	</div>
-				</div>
-	      <div class="row">
-	      	<div class="col-md-10">
-	      		<h4>
-              <a href="http://janephilipps.com">Jane Philipps</a> | Artist
-            </h4>
-            <h5>
-              August 2013 - present | San Francisco, CA
-            </h5>
-            <ul>
-              <li>
-                Emerging visual artist developing personal studio practice
-              </li>
-              <li>
-                Branding visual design: website, business cards, print collateral, email marketing
-              </li>
-            </ul>
-            <br>
-            <h4>
-              <a href="http://honourmark.com" target="_blank">HonourMark</a> | Product Development & Ecommerce Consultant
-            </h4>
-            <h5>
-              November 2013 - April 2014 | San Francisco, CA
-            </h5>
-            <ul>
-              <li>
-                Managed web design, development process from start to launch (3 month timeline)
-              </li>
-              <li>
-                Tested website across multiple browsers/devices pre-launch; worked with developer to triage and solve issues
-              </li>
-            </ul>
-            <br>
-            <h4>
-              <a href="http://levi.com" target="_blank">Levi Strauss & Co</a> | Women&#39;s Global Product Development Assistant
-            </h4>
-            <h5>
-              November 2012 - August 2013 | San Francisco, CA
-            </h5>
-            <ul>
-              <li>
-                Managed overseas pre-production approvals for 400 styles per season on deadline driven calendar
-              </li>
-              <li>
-                Team trainer for company-wide implementation of PLM software; created training documents, trained new hires
-              </li>
-            </ul>
-            <br>
-            <h4>
-              <a href="http://betabrand.com" target="_blank">Betabrand</a> | Lead Product Developer & Production Manager
-            </h4>
-            <h5>
-              April 2011 - October 2012 | San Francisco, CA
-            </h5>
-            <ul>
-              <li>
-                Oversaw and delivered over $2MM of inventory; responsible for on-time delivery of 2 products/week
-              </li>
-              <li>
-                Edited weekly email newsletter (15K subscribers); provided product specs and descriptions to copywriter
-              </li>
-              <li>
-                Mentored and oversaw daily workload of junior team members
-              </li>
-            </ul>
-	      	</div>
-				</div>
-				<br>
-				<br>
-	      <div class="row">
-			  	<div class="col-md-12">
-			  		<h3 id="education">
-              EDUCATION
-            </h3>
-			  	</div>
-				</div>
-				<div class="row">
-					<div class="col-md-12">
-						<h4>
-              <a href="http://generalassemb.ly" target="_blank">General Assembly</a> | San Francisco, CA
-            </h4>
-            <h5>
-              Web Development Immersive 2015
-            </h5>
-            <br>
-            <h4>
-              <a href="http://wustl.edu" target="_blank">Washington University</a>, <a href="http://samfoxschool.wustl.edu/" target="_blank">Sam Fox School of Design & Visual Arts</a> | St. Louis, MO
-            </h4>
-            <h5>
-              B.F.A, Printmaking/Drawing Major, Writing Minor 2009
-            </h5>
-            <br>
-            <h4>
-              Washington University College of Art Semester Abroad | Florence, Italy
-            </h4>
-            <h5>
-              2007
-            </h5>
-					</div>
-				</div>
-			</div>
-			<div class="container section" id="contact">
-				<div class="row">
-					<div class="col-md-12">
-						<h2>
-              Contact
-            </h2>
-			  		<hr>
-					</div>
-				</div>
-			  <div class="row">
-			  	<div class="col-md-2">
-			  		<img src="./img/headshot.png" id="headshot" alt="Jane Philipps headshot">
-			  	</div>
-				  <div class="col-md-2">
-			  		<h3>
-              Say Hello
-            </h3>
-				 		<ul>
-							<li class="contactInfo">
-                <a href="mailto:jane.philipps@gmail.com"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> Email</a>
-              </li>
-							<li class="contactInfo">
-                <a href="https://linkedin.com/in/janephilipps" target="_blank"><i class="fa fa-linkedin"></i> LinkedIn</a>
-              </li>
-							<li class="contactInfo">
-                <a href="https://github.com/janephilipps/" target="_blank"><i class="fa fa-github"></i> GitHub</a>
-              </li>
-							<li class="contactInfo">
-                <a href="https://twitter.com/janephilipps" target="_blank"><i class="fa fa-twitter"></i> Twitter</a>
-              </li>
-							<li class="contactInfo">
-                <a href="https://instagram.com/janephilipps/" target="_blank"><i class="fa fa-instagram"></i> Instagram</a>
-              </li>
-						</ul>
-				  </div>
-			  </div>
-			</div>
-			<br>
-			<br>
-			<br>
 		</div>
-		<footer class="footer">
-			<div class="container">
-				<p>
-          This site was built and designed by Jane Philipps.
-        </p>
-			</div>
-		</footer>
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 	</body>

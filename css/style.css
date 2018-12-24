@@ -1,181 +1,37 @@
 body {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Futura', sans-serif;
 	padding-top: 50px;
-	background-color: #FCFCFF;
-	color: #364958;
+	background-color: #FFF;
+	color: #000;
 }
 
-/* NAVBAR STYLES */
+p {
+  font-size: 1.25em;
+}
 
 .navbar {
-  background-color: #364958;
-}
-
-.navbar-default .navbar-nav>li>a {
-  color: #FCFCFF;
-}
-
-.navbar-default .navbar-nav>li>a:hover {
-  color: #A7BED3;
-}
-
-.navbar-default .navbar-nav>li>a:active {
-  color: #FF4B3E;
-}
-
-.navbar-default .navbar-nav>.open>a,
-.navbar-default .navbar-nav>.open>a:focus,
-.navbar-default .navbar-nav>.open>a:hover {
-  background-color: #FCFCFF;
-  color: #FF4B3E;
-}
-
-.dropdown-menu {
-  background-color: #364958;
-}
-
-.dropdown-menu>li>a {
-  background-color: #364958;
-  color: #FCFCFF;
-}
-
-.dropdown-menu>li>a:hover {
-  background-color: #364958;
-  color: #FF4B3E;
-}
-
-#home {
-  color: #FCFCFF;
-}
-
-#home:hover {
-  color: #FF4B3E;
-}
-
-.navbar-default .navbar-toggle {
-  border-color: #FCFCFF;
-}
-
-.navbar-default .navbar-toggle:hover {
-  background-color: #FCFCFF;
-  border-color: #FF4B3E;
-}
-
-.navbar-default .navbar-toggle .icon-bar {
-  background-color: #FCFCFF;
-}
-
-.navbar-default .navbar-toggle:hover .icon-bar {
-  background-color: #FF4B3E;
-}
-
-@media (max-width: 767px) {
-
-  .navbar-default .navbar-nav .open .dropdown-menu>li>a {
-    color: #FCFCFF;
-  }
-
-  .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover {
-    color: #FF4B3E;
-  }
-}
-
-/* END NAVBAR STYLES */
-
-ul {
-	padding: 0;
-	margin: 0;
-}
-
-ul > li {
-	margin-left: 15px;
-}
-
-#headshot {
-	border-radius: 10%;
-}
-
-h4 a {
-	text-decoration: none;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-	color: #364958;
-}
-
-#projects h3 {
-	font-size: 20px;
-}
-
-.project {
-  width: 570px;
-  height: 309px;
+  background-color: #000;
 }
 
 a {
 	text-decoration: none;
-	color: #5C73E6;
+	color: blue;
 }
 
 a:hover {
 	text-decoration: none;
-	color: #FF4B3E;
+	color: red;
 }
 
 a:visited {
 	text-decoration: none
-	color: #5C73E6;
+	color: blue;
 }
 
-#about,
-#projects,
-#resume,
-#contact {
-	padding-top: 50px;
-	margin-top: -50px;
+a.navbar-brand.nav-color {
+  color: white;
 }
 
-#technical-skills,
-#web-development,
-#experience,
-#education {
-	padding-top: 70px;
-	margin-top: -70px;
-}
-
-.section #contact {
-	margin-bottom: 5%;
-}
-
-#contact div {
-	text-align: left;
-}
-
-#contact ul {
-	list-style-type: none;
-}
-
-#contact ul > li {
-	margin-left: 0;
-}
-
-#projects .expander ul {
-	list-style-type: disc;
-}
-
-.footer {
-	height: 50px;
-	text-align: center;
-	background-color: #364958;
-}
-
-.footer p {
-	color: white;
-	margin-top: 15px;
+a.navbar-brand.nav-color:hover {
+  color: blue;
 }
